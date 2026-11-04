@@ -7,3 +7,8 @@ __pycache__/
 工作区/运行支持/环境/
 工作区/运行支持/临时文件/
 工作区/数据/来源记录/行情.csv
+
+# Local experiment ledgers and path-level outputs.
+交付区/结果/完整认购/逐日账本.zip
+交付区/结果/完整认购/episode_metrics.csv
+交付区/结果/完整认购/full_*.log
