@@ -1,0 +1,8 @@
+{
+  "expected": 1008,
+  "evaluated": 972,
+  "frozen": 972,
+  "unavailable": 36,
+  "baseline_unavailable": 0,
+  "failures": 0
+}

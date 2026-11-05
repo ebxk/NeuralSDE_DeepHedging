@@ -1,0 +1,65 @@
+{
+  "folds": [
+    [
+      2022,
+      2023,
+      2025
+    ],
+    [
+      2019,
+      2020,
+      2021
+    ],
+    [
+      2020,
+      2021,
+      2022
+    ],
+    [
+      2021,
+      2022,
+      2023
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      30
+    ],
+    [
+      45,
+      60
+    ],
+    [
+      75,
+      90
+    ]
+  ],
+  "moneyness": [
+    0.9,
+    1.1
+  ],
+  "report_moneyness": [
+    0.97,
+    1.03
+  ],
+  "simulation_train": 32768,
+  "simulation_valid": 8192,
+  "origin_seed": 104,
+  "shock_seed": 105,
+  "boundary": "reflect",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "lambdas": [
+    0,
+    0.1
+  ],
+  "epochs": 100,
+  "validation_every": 10,
+  "patience": 3,
+  "batch_size": 1024,
+  "bootstrap": 2000
+}
