@@ -1,0 +1,18 @@
+{
+  "stage": "interim",
+  "models": 144,
+  "configurations": 48,
+  "cost_bp": 5,
+  "lam": 0,
+  "paths": 773,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reference": "C1_R0_Toff_W0H0",
+  "historical_evaluation": "2024-2025 already observed",
+  "checkpoint_selection": "unchanged validation selection",
+  "bootstrap": 2000,
+  "block_months": 3
+}

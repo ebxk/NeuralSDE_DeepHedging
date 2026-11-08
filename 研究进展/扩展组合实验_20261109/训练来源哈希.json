@@ -1,0 +1,19 @@
+{
+  "torch": "2.12.1+cpu",
+  "numpy": "2.5.4",
+  "files": {
+    "study.json": "a1c11dfd47a3f64e0096380c5cba8425934f622910b9459bef1cb5d14c308f4d",
+    "extended_registry.py": "cd7dc816eec1e91880c38e6004f7a81313bb00b94b85d59e16b890ae44b2e2e8",
+    "extended_train.py": "d87f9a8e82ba1950961dd8e68a58c634ab830a7ae87486ce6898b472f3569267",
+    "extended_data.py": "f49cbb244f9d4341025612acdc31373adc443ac35005ab49da39e5730b235471",
+    "extended_curve.py": "f811eb4d02ed2c381726061a8573e4beeff04e42787ad354e11eff6cd2160be9",
+    "extended_policy.py": "e8ee944298d45a0de9fdcbd55092ced76be2d5e3a6de4d6db4b7bc16f00ec81a"
+  },
+  "parents": {
+    "创新组合实验/train": "278ca01e407770c259d66ecaa1cbdb7d5fe8e7b0c998213e25931518a125534c",
+    "创新组合实验/policy": "1e154eec558f0b163b9064a256d371ec4ed26f44f83103579def17b098a039a4",
+    "创新组合实验/prepare_common": "9cece15756f32d943ca82ad80d81acf5a1ec4225a4c1f938f1a7817148a27916",
+    "完整认购/contract_ledger": "c1030226c9a636b5394c59bb3c9f1a85ccce9c998c5853d274560e5eee25d69d",
+    "完整认购/hedge_experiment": "054ab90a0d0f812a5f8d18990440396e1dc2db7024f296215109bfec1bb63fde"
+  }
+}

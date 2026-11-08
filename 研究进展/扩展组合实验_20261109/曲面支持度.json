@@ -1,0 +1,5330 @@
+{
+  "source_flags": {
+    "observed": 0,
+    "interpolated": 1,
+    "anchor": 2,
+    "extrapolated": 4
+  },
+  "folds": {
+    "2025": {
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "training_days": 1922,
+      "first_training_date": "2015-02-09",
+      "last_training_date": "2022-12-30",
+      "tenor": {
+        "ttm": 7,
+        "days": 462,
+        "fraction": 0.24037460978147762,
+        "passed": true
+      },
+      "wings": [
+        {
+          "k": 0.85,
+          "days": 1391,
+          "fraction": 0.7237252861602498,
+          "passed": true
+        },
+        {
+          "k": 1.15,
+          "days": 1390,
+          "fraction": 0.7232049947970863,
+          "passed": true
+        }
+      ],
+      "nodes": [
+        {
+          "ttm": 7,
+          "k": 0.85,
+          "days": 253,
+          "contracts": 182,
+          "expiry_months": 59,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.9,
+          "days": 408,
+          "contracts": 330,
+          "expiry_months": 89,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.95,
+          "days": 459,
+          "contracts": 406,
+          "expiry_months": 94,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.0,
+          "days": 462,
+          "contracts": 404,
+          "expiry_months": 94,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.05,
+          "days": 453,
+          "contracts": 364,
+          "expiry_months": 94,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.1,
+          "days": 374,
+          "contracts": 274,
+          "expiry_months": 79,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.15,
+          "days": 294,
+          "contracts": 184,
+          "expiry_months": 64,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 0.85,
+          "days": 233,
+          "contracts": 159,
+          "expiry_months": 57,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 1.15,
+          "days": 279,
+          "contracts": 160,
+          "expiry_months": 62,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 0.85,
+          "days": 123,
+          "contracts": 120,
+          "expiry_months": 47,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 1.15,
+          "days": 167,
+          "contracts": 136,
+          "expiry_months": 59,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 0.85,
+          "days": 75,
+          "contracts": 82,
+          "expiry_months": 30,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 1.15,
+          "days": 93,
+          "contracts": 83,
+          "expiry_months": 36,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 0.85,
+          "days": 94,
+          "contracts": 78,
+          "expiry_months": 25,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 1.15,
+          "days": 89,
+          "contracts": 68,
+          "expiry_months": 24,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "rules": {
+        "tenor_window_days": 2,
+        "tenor_min_day_fraction": 0.2,
+        "wing_moneyness_window": 0.025,
+        "wing_ttm_days": [
+          1,
+          90
+        ],
+        "wing_min_day_fraction": 0.5,
+        "node_min_contracts": 30,
+        "node_min_expiry_months": 6,
+        "node_ttm_window_days": 2,
+        "node_moneyness_window": 0.025
+      },
+      "source_by_split": {
+        "train": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1832,
+            "extrapolated": 1377,
+            "repaired": 970,
+            "mean_abs_repair": 0.000537383748573259
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1641,
+            "extrapolated": 597,
+            "repaired": 656,
+            "mean_abs_repair": 0.00040738517537675865
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1486,
+            "extrapolated": 81,
+            "repaired": 311,
+            "mean_abs_repair": 0.000170964018396777
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 1922,
+            "observed": 3,
+            "interpolated": 1919,
+            "anchor": 1461,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 6.13741916578683e-20
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1917,
+            "anchor": 1459,
+            "extrapolated": 181,
+            "repaired": 2,
+            "mean_abs_repair": 3.5014851301686623e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1897,
+            "anchor": 1458,
+            "extrapolated": 602,
+            "repaired": 56,
+            "mean_abs_repair": 7.315462102560426e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1876,
+            "anchor": 1458,
+            "extrapolated": 1022,
+            "repaired": 98,
+            "mean_abs_repair": 1.1089397361377341e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 1922,
+            "observed": 1,
+            "interpolated": 1921,
+            "anchor": 1789,
+            "extrapolated": 1475,
+            "repaired": 859,
+            "mean_abs_repair": 0.0007044608523403201
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1398,
+            "extrapolated": 690,
+            "repaired": 544,
+            "mean_abs_repair": 0.0004938896687349576
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1070,
+            "extrapolated": 104,
+            "repaired": 212,
+            "mean_abs_repair": 0.0001367614449696492
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 1922,
+            "observed": 1,
+            "interpolated": 1921,
+            "anchor": 1009,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 6.49844382259782e-20
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1916,
+            "anchor": 1007,
+            "extrapolated": 190,
+            "repaired": 1,
+            "mean_abs_repair": 6.429229659227235e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1897,
+            "anchor": 1006,
+            "extrapolated": 659,
+            "repaired": 10,
+            "mean_abs_repair": 5.326166476888174e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1880,
+            "anchor": 1006,
+            "extrapolated": 1137,
+            "repaired": 36,
+            "mean_abs_repair": 6.947697913092201e-07
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1723,
+            "extrapolated": 1693,
+            "repaired": 709,
+            "mean_abs_repair": 0.0008699702550965321
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1039,
+            "extrapolated": 960,
+            "repaired": 415,
+            "mean_abs_repair": 0.0005693071284040933
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 256,
+            "extrapolated": 152,
+            "repaired": 94,
+            "mean_abs_repair": 6.590052147879057e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 1922,
+            "observed": 4,
+            "interpolated": 1917,
+            "anchor": 119,
+            "extrapolated": 13,
+            "repaired": 0,
+            "mean_abs_repair": 6.49844382259782e-20
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1911,
+            "anchor": 109,
+            "extrapolated": 241,
+            "repaired": 6,
+            "mean_abs_repair": 9.086474803369385e-07
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1895,
+            "anchor": 108,
+            "extrapolated": 826,
+            "repaired": 82,
+            "mean_abs_repair": 3.1535056061630934e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1874,
+            "anchor": 108,
+            "extrapolated": 1403,
+            "repaired": 212,
+            "mean_abs_repair": 8.107116016161778e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1628,
+            "extrapolated": 1628,
+            "repaired": 469,
+            "mean_abs_repair": 0.0009282528228312175
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 903,
+            "extrapolated": 903,
+            "repaired": 286,
+            "mean_abs_repair": 0.0004326581218140373
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 163,
+            "extrapolated": 163,
+            "repaired": 23,
+            "mean_abs_repair": 2.7830437781595127e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 10,
+            "extrapolated": 12,
+            "repaired": 2,
+            "mean_abs_repair": 7.535751719292933e-07
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1,
+            "extrapolated": 228,
+            "repaired": 17,
+            "mean_abs_repair": 6.481212221091578e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1921,
+            "anchor": 0,
+            "extrapolated": 792,
+            "repaired": 22,
+            "mean_abs_repair": 7.003961371188338e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1921,
+            "anchor": 0,
+            "extrapolated": 1350,
+            "repaired": 91,
+            "mean_abs_repair": 2.4661952292665798e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 1485,
+            "extrapolated": 1485,
+            "repaired": 525,
+            "mean_abs_repair": 0.0012353610979018792
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 706,
+            "extrapolated": 706,
+            "repaired": 262,
+            "mean_abs_repair": 0.0004336258373484643
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 121,
+            "extrapolated": 121,
+            "repaired": 26,
+            "mean_abs_repair": 5.667057209030907e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1922,
+            "anchor": 8,
+            "extrapolated": 10,
+            "repaired": 9,
+            "mean_abs_repair": 4.528664249930707e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1921,
+            "anchor": 1,
+            "extrapolated": 182,
+            "repaired": 30,
+            "mean_abs_repair": 2.3722074335600684e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1916,
+            "anchor": 0,
+            "extrapolated": 674,
+            "repaired": 19,
+            "mean_abs_repair": 6.7539093052300025e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 1922,
+            "observed": 0,
+            "interpolated": 1908,
+            "anchor": 0,
+            "extrapolated": 1164,
+            "repaired": 52,
+            "mean_abs_repair": 6.703331682703651e-06
+          }
+        ],
+        "validation": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 240,
+            "extrapolated": 195,
+            "repaired": 93,
+            "mean_abs_repair": 0.0001360897807655231
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 226,
+            "extrapolated": 91,
+            "repaired": 44,
+            "mean_abs_repair": 3.957185888006482e-05
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 0,
+            "repaired": 24,
+            "mean_abs_repair": 4.7329027791561804e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 48,
+            "repaired": 4,
+            "mean_abs_repair": 1.3507698416846962e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 235,
+            "anchor": 189,
+            "extrapolated": 168,
+            "repaired": 18,
+            "mean_abs_repair": 1.0869120892416242e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 239,
+            "extrapolated": 209,
+            "repaired": 83,
+            "mean_abs_repair": 0.00018141405472060172
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 198,
+            "extrapolated": 109,
+            "repaired": 24,
+            "mean_abs_repair": 3.3630599258927205e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 0,
+            "repaired": 14,
+            "mean_abs_repair": 4.825945405950928e-05
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 129,
+            "extrapolated": 64,
+            "repaired": 1,
+            "mean_abs_repair": 7.78198004700316e-08
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 233,
+            "anchor": 129,
+            "extrapolated": 183,
+            "repaired": 5,
+            "mean_abs_repair": 2.3086435073651401e-07
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 238,
+            "extrapolated": 235,
+            "repaired": 63,
+            "mean_abs_repair": 0.00018723838796604866
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 159,
+            "extrapolated": 154,
+            "repaired": 11,
+            "mean_abs_repair": 6.253383812472958e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 4,
+            "mean_abs_repair": 4.2040072097020374e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 12,
+            "extrapolated": 116,
+            "repaired": 10,
+            "mean_abs_repair": 1.4388305056640267e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 235,
+            "anchor": 12,
+            "extrapolated": 217,
+            "repaired": 48,
+            "mean_abs_repair": 9.141823798341776e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 216,
+            "extrapolated": 216,
+            "repaired": 18,
+            "mean_abs_repair": 6.100466849427423e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 156,
+            "extrapolated": 156,
+            "repaired": 3,
+            "mean_abs_repair": 1.380807245187195e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 123,
+            "repaired": 4,
+            "mean_abs_repair": 8.782107894694406e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 197,
+            "repaired": 22,
+            "mean_abs_repair": 2.8927207896464386e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 200,
+            "extrapolated": 200,
+            "repaired": 17,
+            "mean_abs_repair": 7.984374052776056e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 127,
+            "extrapolated": 127,
+            "repaired": 3,
+            "mean_abs_repair": 1.0629051902118972e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 82,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 167,
+            "repaired": 7,
+            "mean_abs_repair": 1.2954316670899154e-05
+          }
+        ],
+        "test": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 457,
+            "extrapolated": 325,
+            "repaired": 281,
+            "mean_abs_repair": 0.00039327318998936796
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 482,
+            "observed": 1,
+            "interpolated": 481,
+            "anchor": 410,
+            "extrapolated": 130,
+            "repaired": 198,
+            "mean_abs_repair": 0.0003194893962576652
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 362,
+            "extrapolated": 1,
+            "repaired": 88,
+            "mean_abs_repair": 0.0001532909312378558
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 482,
+            "observed": 4,
+            "interpolated": 478,
+            "anchor": 362,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 362,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 3.5990113609477326e-21
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 482,
+            "observed": 1,
+            "interpolated": 474,
+            "anchor": 362,
+            "extrapolated": 133,
+            "repaired": 12,
+            "mean_abs_repair": 5.36380863343996e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 466,
+            "anchor": 362,
+            "extrapolated": 345,
+            "repaired": 43,
+            "mean_abs_repair": 2.131048718449446e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 442,
+            "extrapolated": 355,
+            "repaired": 254,
+            "mean_abs_repair": 0.00042079090123077055
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 352,
+            "extrapolated": 165,
+            "repaired": 158,
+            "mean_abs_repair": 0.0003032022030690267
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 248,
+            "extrapolated": 1,
+            "repaired": 43,
+            "mean_abs_repair": 8.483569103646096e-05
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 248,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 481,
+            "anchor": 248,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 7.198022721895465e-21
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 478,
+            "anchor": 248,
+            "extrapolated": 159,
+            "repaired": 2,
+            "mean_abs_repair": 1.3883504818295157e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 469,
+            "anchor": 248,
+            "extrapolated": 371,
+            "repaired": 27,
+            "mean_abs_repair": 2.126701962399914e-06
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 422,
+            "extrapolated": 416,
+            "repaired": 180,
+            "mean_abs_repair": 0.000303189924342394
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 273,
+            "extrapolated": 251,
+            "repaired": 63,
+            "mean_abs_repair": 0.00018214654806127185
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 29,
+            "extrapolated": 2,
+            "repaired": 6,
+            "mean_abs_repair": 1.465175165114231e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 27,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 27,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 475,
+            "anchor": 27,
+            "extrapolated": 212,
+            "repaired": 16,
+            "mean_abs_repair": 2.675649671837323e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 465,
+            "anchor": 27,
+            "extrapolated": 426,
+            "repaired": 81,
+            "mean_abs_repair": 1.4454176503009813e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 391,
+            "extrapolated": 391,
+            "repaired": 64,
+            "mean_abs_repair": 0.00016197317709114485
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 247,
+            "extrapolated": 247,
+            "repaired": 14,
+            "mean_abs_repair": 3.9854417701784424e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 2,
+            "extrapolated": 2,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 3,
+            "repaired": 0,
+            "mean_abs_repair": 1.439604544379093e-20
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 194,
+            "repaired": 2,
+            "mean_abs_repair": 1.7599228748871616e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 407,
+            "repaired": 47,
+            "mean_abs_repair": 1.1512406476761142e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 365,
+            "extrapolated": 365,
+            "repaired": 54,
+            "mean_abs_repair": 0.00012287102330264227
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 187,
+            "extrapolated": 187,
+            "repaired": 7,
+            "mean_abs_repair": 1.7918414788136218e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 482,
+            "observed": 1,
+            "interpolated": 481,
+            "anchor": 0,
+            "extrapolated": 1,
+            "repaired": 1,
+            "mean_abs_repair": 1.4273492761345428e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 482,
+            "anchor": 0,
+            "extrapolated": 2,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 480,
+            "anchor": 0,
+            "extrapolated": 155,
+            "repaired": 2,
+            "mean_abs_repair": 1.1679380368937429e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 482,
+            "observed": 0,
+            "interpolated": 476,
+            "anchor": 0,
+            "extrapolated": 365,
+            "repaired": 36,
+            "mean_abs_repair": 2.799858616038716e-05
+          }
+        ]
+      }
+    },
+    "2021": {
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "training_days": 1194,
+      "first_training_date": "2015-02-09",
+      "last_training_date": "2019-12-31",
+      "tenor": {
+        "ttm": 7,
+        "days": 286,
+        "fraction": 0.23953098827470687,
+        "passed": true
+      },
+      "wings": [
+        {
+          "k": 0.85,
+          "days": 891,
+          "fraction": 0.7462311557788944,
+          "passed": true
+        },
+        {
+          "k": 1.15,
+          "days": 698,
+          "fraction": 0.5845896147403685,
+          "passed": true
+        }
+      ],
+      "nodes": [
+        {
+          "ttm": 7,
+          "k": 0.85,
+          "days": 150,
+          "contracts": 108,
+          "expiry_months": 35,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.9,
+          "days": 240,
+          "contracts": 196,
+          "expiry_months": 53,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.95,
+          "days": 284,
+          "contracts": 256,
+          "expiry_months": 58,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.0,
+          "days": 286,
+          "contracts": 250,
+          "expiry_months": 58,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.05,
+          "days": 277,
+          "contracts": 213,
+          "expiry_months": 58,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.1,
+          "days": 198,
+          "contracts": 154,
+          "expiry_months": 43,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.15,
+          "days": 142,
+          "contracts": 99,
+          "expiry_months": 32,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 0.85,
+          "days": 122,
+          "contracts": 87,
+          "expiry_months": 29,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 1.15,
+          "days": 127,
+          "contracts": 77,
+          "expiry_months": 30,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 0.85,
+          "days": 73,
+          "contracts": 69,
+          "expiry_months": 26,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 1.15,
+          "days": 76,
+          "contracts": 66,
+          "expiry_months": 27,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 0.85,
+          "days": 48,
+          "contracts": 52,
+          "expiry_months": 18,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 1.15,
+          "days": 42,
+          "contracts": 35,
+          "expiry_months": 15,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 0.85,
+          "days": 59,
+          "contracts": 49,
+          "expiry_months": 15,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 1.15,
+          "days": 44,
+          "contracts": 34,
+          "expiry_months": 12,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "rules": {
+        "tenor_window_days": 2,
+        "tenor_min_day_fraction": 0.2,
+        "wing_moneyness_window": 0.025,
+        "wing_ttm_days": [
+          1,
+          90
+        ],
+        "wing_min_day_fraction": 0.5,
+        "node_min_contracts": 30,
+        "node_min_expiry_months": 6,
+        "node_ttm_window_days": 2,
+        "node_moneyness_window": 0.025
+      },
+      "source_by_split": {
+        "train": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 1139,
+            "extrapolated": 853,
+            "repaired": 590,
+            "mean_abs_repair": 0.0006205680717869665
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 1050,
+            "extrapolated": 473,
+            "repaired": 437,
+            "mean_abs_repair": 0.0004925266292561501
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 932,
+            "extrapolated": 74,
+            "repaired": 226,
+            "mean_abs_repair": 0.00021647969657934805
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 1194,
+            "observed": 2,
+            "interpolated": 1192,
+            "anchor": 910,
+            "extrapolated": 7,
+            "repaired": 0,
+            "mean_abs_repair": 8.862490120149516e-20
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1189,
+            "anchor": 908,
+            "extrapolated": 180,
+            "repaired": 2,
+            "mean_abs_repair": 5.63639398675391e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1171,
+            "anchor": 907,
+            "extrapolated": 559,
+            "repaired": 52,
+            "mean_abs_repair": 1.1386990986953585e-06
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1157,
+            "anchor": 907,
+            "extrapolated": 800,
+            "repaired": 72,
+            "mean_abs_repair": 1.4609283213795707e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 1194,
+            "observed": 1,
+            "interpolated": 1193,
+            "anchor": 1115,
+            "extrapolated": 915,
+            "repaired": 522,
+            "mean_abs_repair": 0.0008015694901194327
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 932,
+            "extrapolated": 544,
+            "repaired": 369,
+            "mean_abs_repair": 0.000581751980147476
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 688,
+            "extrapolated": 96,
+            "repaired": 161,
+            "mean_abs_repair": 0.00016246969704009228
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 633,
+            "extrapolated": 7,
+            "repaired": 0,
+            "mean_abs_repair": 9.298350289992936e-20
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1188,
+            "anchor": 631,
+            "extrapolated": 189,
+            "repaired": 1,
+            "mean_abs_repair": 1.034922898244116e-06
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1171,
+            "anchor": 630,
+            "extrapolated": 599,
+            "repaired": 10,
+            "mean_abs_repair": 8.573611363969071e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1159,
+            "anchor": 630,
+            "extrapolated": 860,
+            "repaired": 35,
+            "mean_abs_repair": 1.111235440274816e-06
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 1081,
+            "extrapolated": 1057,
+            "repaired": 443,
+            "mean_abs_repair": 0.0010138365596795028
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 793,
+            "extrapolated": 750,
+            "repaired": 298,
+            "mean_abs_repair": 0.0006651651068895251
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 207,
+            "extrapolated": 143,
+            "repaired": 67,
+            "mean_abs_repair": 7.87385285109843e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 1194,
+            "observed": 4,
+            "interpolated": 1189,
+            "anchor": 77,
+            "extrapolated": 12,
+            "repaired": 0,
+            "mean_abs_repair": 1.0460644076242052e-19
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1183,
+            "anchor": 68,
+            "extrapolated": 239,
+            "repaired": 6,
+            "mean_abs_repair": 1.4626636995038492e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1168,
+            "anchor": 67,
+            "extrapolated": 704,
+            "repaired": 76,
+            "mean_abs_repair": 4.590909460024814e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1157,
+            "anchor": 67,
+            "extrapolated": 990,
+            "repaired": 134,
+            "mean_abs_repair": 8.95735776746915e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 1015,
+            "extrapolated": 1015,
+            "repaired": 295,
+            "mean_abs_repair": 0.0010107884888572373
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 692,
+            "extrapolated": 692,
+            "repaired": 204,
+            "mean_abs_repair": 0.0004806114088747573
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 154,
+            "extrapolated": 154,
+            "repaired": 22,
+            "mean_abs_repair": 3.42389751110962e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 10,
+            "extrapolated": 12,
+            "repaired": 2,
+            "mean_abs_repair": 1.213041440911308e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 1,
+            "extrapolated": 226,
+            "repaired": 17,
+            "mean_abs_repair": 1.0432906104638201e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 0,
+            "extrapolated": 680,
+            "repaired": 20,
+            "mean_abs_repair": 1.012915479862092e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 0,
+            "extrapolated": 952,
+            "repaired": 60,
+            "mean_abs_repair": 2.6349897400852357e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 920,
+            "extrapolated": 920,
+            "repaired": 344,
+            "mean_abs_repair": 0.0014095813133772526
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 559,
+            "extrapolated": 559,
+            "repaired": 202,
+            "mean_abs_repair": 0.0005636370471307255
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 114,
+            "extrapolated": 114,
+            "repaired": 26,
+            "mean_abs_repair": 9.122348371656118e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1194,
+            "anchor": 8,
+            "extrapolated": 10,
+            "repaired": 9,
+            "mean_abs_repair": 7.289859873004036e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1193,
+            "anchor": 1,
+            "extrapolated": 180,
+            "repaired": 30,
+            "mean_abs_repair": 3.8185784650774294e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1188,
+            "anchor": 0,
+            "extrapolated": 600,
+            "repaired": 19,
+            "mean_abs_repair": 1.087187075766504e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 1194,
+            "observed": 0,
+            "interpolated": 1182,
+            "anchor": 0,
+            "extrapolated": 871,
+            "repaired": 52,
+            "mean_abs_repair": 1.0790455187735691e-05
+          }
+        ],
+        "validation": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 227,
+            "extrapolated": 151,
+            "repaired": 159,
+            "mean_abs_repair": 0.0006995653847525857
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 190,
+            "extrapolated": 13,
+            "repaired": 113,
+            "mean_abs_repair": 0.0005503720200627048
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 184,
+            "extrapolated": 3,
+            "repaired": 58,
+            "mean_abs_repair": 0.00023889682799750557
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 183,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 4.9971458155710494e-20
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 183,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 183,
+            "extrapolated": 30,
+            "repaired": 4,
+            "mean_abs_repair": 1.9104976242739077e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 238,
+            "anchor": 183,
+            "extrapolated": 115,
+            "repaired": 10,
+            "mean_abs_repair": 5.307497065565972e-07
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 217,
+            "extrapolated": 167,
+            "repaired": 143,
+            "mean_abs_repair": 0.0010505220032920434
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 143,
+            "extrapolated": 24,
+            "repaired": 102,
+            "mean_abs_repair": 0.0007840388567602023
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 125,
+            "extrapolated": 4,
+            "repaired": 42,
+            "mean_abs_repair": 0.00024571115985055534
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 123,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 5.711023789224057e-20
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 123,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 123,
+            "extrapolated": 35,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 239,
+            "anchor": 123,
+            "extrapolated": 129,
+            "repaired": 1,
+            "mean_abs_repair": 3.511285270860546e-08
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 203,
+            "extrapolated": 201,
+            "repaired": 122,
+            "mean_abs_repair": 0.0012675507359648083
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 60,
+            "extrapolated": 49,
+            "repaired": 70,
+            "mean_abs_repair": 0.0009468324187832687
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 18,
+            "extrapolated": 5,
+            "repaired": 24,
+            "mean_abs_repair": 0.00011094405089794278
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 15,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 14,
+            "extrapolated": 2,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 14,
+            "extrapolated": 54,
+            "repaired": 4,
+            "mean_abs_repair": 7.243918619067512e-07
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 238,
+            "anchor": 14,
+            "extrapolated": 158,
+            "repaired": 24,
+            "mean_abs_repair": 6.426836615509791e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 172,
+            "extrapolated": 172,
+            "repaired": 87,
+            "mean_abs_repair": 0.0016170422933877476
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 49,
+            "extrapolated": 49,
+            "repaired": 51,
+            "mean_abs_repair": 0.0008251904948608701
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 5,
+            "extrapolated": 5,
+            "repaired": 1,
+            "mean_abs_repair": 5.1887922360399084e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 2,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 39,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 144,
+            "repaired": 6,
+            "mean_abs_repair": 1.463963103571423e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 144,
+            "extrapolated": 144,
+            "repaired": 104,
+            "mean_abs_repair": 0.002062172133355765
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 23,
+            "extrapolated": 23,
+            "repaired": 43,
+            "mean_abs_repair": 0.0005637623389780229
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 4,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 2,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 16,
+            "repaired": 0,
+            "mean_abs_repair": 2.8555118946120284e-20
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 118,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          }
+        ],
+        "test": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 231,
+            "extrapolated": 172,
+            "repaired": 147,
+            "mean_abs_repair": 0.0003584736543952966
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 193,
+            "extrapolated": 20,
+            "repaired": 70,
+            "mean_abs_repair": 0.00016543042322869137
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 16,
+            "mean_abs_repair": 3.471320120097512e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 243,
+            "observed": 1,
+            "interpolated": 242,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 6,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 186,
+            "extrapolated": 60,
+            "repaired": 3,
+            "mean_abs_repair": 7.821749522335622e-08
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 224,
+            "extrapolated": 185,
+            "repaired": 139,
+            "mean_abs_repair": 0.00048526660521627725
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 142,
+            "extrapolated": 21,
+            "repaired": 59,
+            "mean_abs_repair": 0.00023708845692389243
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 7,
+            "mean_abs_repair": 3.4547758781193625e-05
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 131,
+            "extrapolated": 6,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 131,
+            "extrapolated": 78,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 207,
+            "extrapolated": 206,
+            "repaired": 105,
+            "mean_abs_repair": 0.0005486895270075655
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 42,
+            "extrapolated": 32,
+            "repaired": 42,
+            "mean_abs_repair": 0.00027433204023783305
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 3,
+            "mean_abs_repair": 2.3405740213663032e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 12,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 239,
+            "anchor": 12,
+            "extrapolated": 131,
+            "repaired": 11,
+            "mean_abs_repair": 1.7222161305814225e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 208,
+            "extrapolated": 208,
+            "repaired": 67,
+            "mean_abs_repair": 0.0007059067054292227
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 30,
+            "extrapolated": 30,
+            "repaired": 31,
+            "mean_abs_repair": 0.00023538106040711174
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 13,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 135,
+            "repaired": 10,
+            "mean_abs_repair": 2.033023694738862e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 204,
+            "extrapolated": 204,
+            "repaired": 66,
+            "mean_abs_repair": 0.0007304393428413437
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 28,
+            "extrapolated": 28,
+            "repaired": 13,
+            "mean_abs_repair": 7.128773185374098e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 9,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 91,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          }
+        ]
+      }
+    },
+    "2022": {
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "training_days": 1437,
+      "first_training_date": "2015-02-09",
+      "last_training_date": "2020-12-31",
+      "tenor": {
+        "ttm": 7,
+        "days": 346,
+        "fraction": 0.2407794015309673,
+        "passed": true
+      },
+      "wings": [
+        {
+          "k": 0.85,
+          "days": 1112,
+          "fraction": 0.7738343771746694,
+          "passed": true
+        },
+        {
+          "k": 1.15,
+          "days": 926,
+          "fraction": 0.6443980514961726,
+          "passed": true
+        }
+      ],
+      "nodes": [
+        {
+          "ttm": 7,
+          "k": 0.85,
+          "days": 199,
+          "contracts": 144,
+          "expiry_months": 45,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.9,
+          "days": 296,
+          "contracts": 243,
+          "expiry_months": 65,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.95,
+          "days": 344,
+          "contracts": 309,
+          "expiry_months": 70,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.0,
+          "days": 346,
+          "contracts": 304,
+          "expiry_months": 70,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.05,
+          "days": 337,
+          "contracts": 263,
+          "expiry_months": 70,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.1,
+          "days": 258,
+          "contracts": 195,
+          "expiry_months": 55,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.15,
+          "days": 192,
+          "contracts": 126,
+          "expiry_months": 42,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 0.85,
+          "days": 173,
+          "contracts": 118,
+          "expiry_months": 40,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 1.15,
+          "days": 174,
+          "contracts": 103,
+          "expiry_months": 40,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 0.85,
+          "days": 94,
+          "contracts": 90,
+          "expiry_months": 34,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 1.15,
+          "days": 101,
+          "contracts": 85,
+          "expiry_months": 36,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 0.85,
+          "days": 61,
+          "contracts": 67,
+          "expiry_months": 24,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 1.15,
+          "days": 54,
+          "contracts": 48,
+          "expiry_months": 20,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 0.85,
+          "days": 71,
+          "contracts": 63,
+          "expiry_months": 19,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 1.15,
+          "days": 58,
+          "contracts": 45,
+          "expiry_months": 16,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "rules": {
+        "tenor_window_days": 2,
+        "tenor_min_day_fraction": 0.2,
+        "wing_moneyness_window": 0.025,
+        "wing_ttm_days": [
+          1,
+          90
+        ],
+        "wing_min_day_fraction": 0.5,
+        "node_min_contracts": 30,
+        "node_min_expiry_months": 6,
+        "node_ttm_window_days": 2,
+        "node_moneyness_window": 0.025
+      },
+      "source_by_split": {
+        "train": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1366,
+            "extrapolated": 1004,
+            "repaired": 749,
+            "mean_abs_repair": 0.0006339266988229063
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1240,
+            "extrapolated": 486,
+            "repaired": 550,
+            "mean_abs_repair": 0.0005023084176806405
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1116,
+            "extrapolated": 77,
+            "repaired": 284,
+            "mean_abs_repair": 0.000220270484982001
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 1437,
+            "observed": 2,
+            "interpolated": 1435,
+            "anchor": 1093,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 8.208851521671738e-20
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1432,
+            "anchor": 1091,
+            "extrapolated": 181,
+            "repaired": 2,
+            "mean_abs_repair": 4.6832668198915575e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1413,
+            "anchor": 1090,
+            "extrapolated": 589,
+            "repaired": 56,
+            "mean_abs_repair": 9.784494197022365e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1395,
+            "anchor": 1090,
+            "extrapolated": 915,
+            "repaired": 82,
+            "mean_abs_repair": 1.3036329815034518e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 1437,
+            "observed": 1,
+            "interpolated": 1436,
+            "anchor": 1332,
+            "extrapolated": 1082,
+            "repaired": 665,
+            "mean_abs_repair": 0.000843667931804154
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1075,
+            "extrapolated": 568,
+            "repaired": 471,
+            "mean_abs_repair": 0.0006159591555245759
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 813,
+            "extrapolated": 100,
+            "repaired": 203,
+            "mean_abs_repair": 0.00017654601956127705
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 756,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 8.691725140593606e-20
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1431,
+            "anchor": 754,
+            "extrapolated": 190,
+            "repaired": 1,
+            "mean_abs_repair": 8.599150595013741e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1413,
+            "anchor": 753,
+            "extrapolated": 634,
+            "repaired": 10,
+            "mean_abs_repair": 7.123793993444029e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1398,
+            "anchor": 753,
+            "extrapolated": 989,
+            "repaired": 36,
+            "mean_abs_repair": 9.292606394546425e-07
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1284,
+            "extrapolated": 1258,
+            "repaired": 565,
+            "mean_abs_repair": 0.0010567402095315063
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 853,
+            "extrapolated": 799,
+            "repaired": 368,
+            "mean_abs_repair": 0.0007127956961659201
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 225,
+            "extrapolated": 148,
+            "repaired": 91,
+            "mean_abs_repair": 8.418455630502112e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 1437,
+            "observed": 4,
+            "interpolated": 1432,
+            "anchor": 92,
+            "extrapolated": 13,
+            "repaired": 0,
+            "mean_abs_repair": 8.691725140593606e-20
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1426,
+            "anchor": 82,
+            "extrapolated": 241,
+            "repaired": 6,
+            "mean_abs_repair": 1.2153239089823214e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1410,
+            "anchor": 81,
+            "extrapolated": 758,
+            "repaired": 80,
+            "mean_abs_repair": 3.937072454915079e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1395,
+            "anchor": 81,
+            "extrapolated": 1148,
+            "repaired": 158,
+            "mean_abs_repair": 8.529440829455146e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1187,
+            "extrapolated": 1187,
+            "repaired": 382,
+            "mean_abs_repair": 0.0011133073994354658
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 741,
+            "extrapolated": 741,
+            "repaired": 255,
+            "mean_abs_repair": 0.0005388805236239748
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 159,
+            "extrapolated": 159,
+            "repaired": 23,
+            "mean_abs_repair": 3.7223452620894804e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 10,
+            "extrapolated": 12,
+            "repaired": 2,
+            "mean_abs_repair": 1.0079133475630492e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1,
+            "extrapolated": 228,
+            "repaired": 17,
+            "mean_abs_repair": 8.668677723686857e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 0,
+            "extrapolated": 719,
+            "repaired": 20,
+            "mean_abs_repair": 8.416291461067069e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 0,
+            "extrapolated": 1096,
+            "repaired": 66,
+            "mean_abs_repair": 2.4369664466455308e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 1064,
+            "extrapolated": 1064,
+            "repaired": 448,
+            "mean_abs_repair": 0.0015199359196784211
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 582,
+            "extrapolated": 582,
+            "repaired": 245,
+            "mean_abs_repair": 0.0005636582342698301
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 118,
+            "extrapolated": 118,
+            "repaired": 26,
+            "mean_abs_repair": 7.57973831298358e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1437,
+            "anchor": 8,
+            "extrapolated": 10,
+            "repaired": 9,
+            "mean_abs_repair": 6.057127827673499e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1436,
+            "anchor": 1,
+            "extrapolated": 182,
+            "repaired": 30,
+            "mean_abs_repair": 3.1728480774547335e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1431,
+            "anchor": 0,
+            "extrapolated": 616,
+            "repaired": 19,
+            "mean_abs_repair": 9.033412445826071e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 1437,
+            "observed": 0,
+            "interpolated": 1424,
+            "anchor": 0,
+            "extrapolated": 989,
+            "repaired": 52,
+            "mean_abs_repair": 8.965764435738632e-06
+          }
+        ],
+        "validation": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 231,
+            "extrapolated": 172,
+            "repaired": 147,
+            "mean_abs_repair": 0.0003584736543952966
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 193,
+            "extrapolated": 20,
+            "repaired": 70,
+            "mean_abs_repair": 0.00016543042322869137
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 16,
+            "mean_abs_repair": 3.471320120097512e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 243,
+            "observed": 1,
+            "interpolated": 242,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 186,
+            "extrapolated": 6,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 186,
+            "extrapolated": 60,
+            "repaired": 3,
+            "mean_abs_repair": 7.821749522335622e-08
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 224,
+            "extrapolated": 185,
+            "repaired": 139,
+            "mean_abs_repair": 0.00048526660521627725
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 142,
+            "extrapolated": 21,
+            "repaired": 59,
+            "mean_abs_repair": 0.00023708845692389243
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 7,
+            "mean_abs_repair": 3.4547758781193625e-05
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 131,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 131,
+            "extrapolated": 6,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 131,
+            "extrapolated": 78,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 207,
+            "extrapolated": 206,
+            "repaired": 105,
+            "mean_abs_repair": 0.0005486895270075655
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 42,
+            "extrapolated": 32,
+            "repaired": 42,
+            "mean_abs_repair": 0.00027433204023783305
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 3,
+            "mean_abs_repair": 2.3405740213663032e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 12,
+            "extrapolated": 12,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 239,
+            "anchor": 12,
+            "extrapolated": 131,
+            "repaired": 11,
+            "mean_abs_repair": 1.7222161305814225e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 208,
+            "extrapolated": 208,
+            "repaired": 67,
+            "mean_abs_repair": 0.0007059067054292227
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 30,
+            "extrapolated": 30,
+            "repaired": 31,
+            "mean_abs_repair": 0.00023538106040711174
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 13,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 135,
+            "repaired": 10,
+            "mean_abs_repair": 2.033023694738862e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 204,
+            "extrapolated": 204,
+            "repaired": 66,
+            "mean_abs_repair": 0.0007304393428413437
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 28,
+            "extrapolated": 28,
+            "repaired": 13,
+            "mean_abs_repair": 7.128773185374098e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 9,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 243,
+            "observed": 0,
+            "interpolated": 243,
+            "anchor": 0,
+            "extrapolated": 91,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          }
+        ],
+        "test": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 235,
+            "extrapolated": 201,
+            "repaired": 74,
+            "mean_abs_repair": 0.00014375950632739836
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 208,
+            "extrapolated": 91,
+            "repaired": 36,
+            "mean_abs_repair": 8.668395877056855e-05
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 184,
+            "extrapolated": 4,
+            "repaired": 11,
+            "mean_abs_repair": 1.4995241932367848e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 182,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 182,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 182,
+            "extrapolated": 7,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 182,
+            "extrapolated": 47,
+            "repaired": 13,
+            "mean_abs_repair": 9.87829450814005e-07
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 233,
+            "extrapolated": 208,
+            "repaired": 55,
+            "mean_abs_repair": 9.794692201640817e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 181,
+            "extrapolated": 101,
+            "repaired": 14,
+            "mean_abs_repair": 2.6901412344080283e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 126,
+            "extrapolated": 4,
+            "repaired": 2,
+            "mean_abs_repair": 3.1560402408292044e-06
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 242,
+            "observed": 1,
+            "interpolated": 241,
+            "anchor": 122,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 19,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 70,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 232,
+            "extrapolated": 229,
+            "repaired": 39,
+            "mean_abs_repair": 8.3535512958354e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 144,
+            "extrapolated": 129,
+            "repaired": 5,
+            "mean_abs_repair": 1.3463634811763248e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 19,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 56,
+            "repaired": 2,
+            "mean_abs_repair": 1.667209327820233e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 15,
+            "extrapolated": 124,
+            "repaired": 43,
+            "mean_abs_repair": 1.201062806365542e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 233,
+            "extrapolated": 233,
+            "repaired": 20,
+            "mean_abs_repair": 5.2660591212953763e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 132,
+            "extrapolated": 132,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 4,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 60,
+            "repaired": 2,
+            "mean_abs_repair": 5.650425313514898e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 119,
+            "repaired": 15,
+            "mean_abs_repair": 3.0747177231371745e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 217,
+            "extrapolated": 217,
+            "repaired": 11,
+            "mean_abs_repair": 5.255931107055706e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 96,
+            "extrapolated": 96,
+            "repaired": 4,
+            "mean_abs_repair": 2.5326685527039622e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 3,
+            "extrapolated": 3,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 49,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 84,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          }
+        ]
+      }
+    },
+    "2023": {
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "training_days": 1680,
+      "first_training_date": "2015-02-09",
+      "last_training_date": "2021-12-31",
+      "tenor": {
+        "ttm": 7,
+        "days": 402,
+        "fraction": 0.2392857142857143,
+        "passed": true
+      },
+      "wings": [
+        {
+          "k": 0.85,
+          "days": 1279,
+          "fraction": 0.7613095238095238,
+          "passed": true
+        },
+        {
+          "k": 1.15,
+          "days": 1151,
+          "fraction": 0.6851190476190476,
+          "passed": true
+        }
+      ],
+      "nodes": [
+        {
+          "ttm": 7,
+          "k": 0.85,
+          "days": 236,
+          "contracts": 170,
+          "expiry_months": 54,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.9,
+          "days": 351,
+          "contracts": 289,
+          "expiry_months": 77,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 0.95,
+          "days": 400,
+          "contracts": 349,
+          "expiry_months": 82,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.0,
+          "days": 402,
+          "contracts": 345,
+          "expiry_months": 82,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.05,
+          "days": 393,
+          "contracts": 305,
+          "expiry_months": 82,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.1,
+          "days": 314,
+          "contracts": 228,
+          "expiry_months": 67,
+          "passed": true
+        },
+        {
+          "ttm": 7,
+          "k": 1.15,
+          "days": 239,
+          "contracts": 152,
+          "expiry_months": 53,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 0.85,
+          "days": 209,
+          "contracts": 149,
+          "expiry_months": 51,
+          "passed": true
+        },
+        {
+          "ttm": 14,
+          "k": 1.15,
+          "days": 221,
+          "contracts": 127,
+          "expiry_months": 50,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 0.85,
+          "days": 114,
+          "contracts": 110,
+          "expiry_months": 42,
+          "passed": true
+        },
+        {
+          "ttm": 30,
+          "k": 1.15,
+          "days": 136,
+          "contracts": 110,
+          "expiry_months": 48,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 0.85,
+          "days": 72,
+          "contracts": 80,
+          "expiry_months": 29,
+          "passed": true
+        },
+        {
+          "ttm": 60,
+          "k": 1.15,
+          "days": 75,
+          "contracts": 64,
+          "expiry_months": 29,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 0.85,
+          "days": 83,
+          "contracts": 70,
+          "expiry_months": 22,
+          "passed": true
+        },
+        {
+          "ttm": 90,
+          "k": 1.15,
+          "days": 73,
+          "contracts": 57,
+          "expiry_months": 20,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "rules": {
+        "tenor_window_days": 2,
+        "tenor_min_day_fraction": 0.2,
+        "wing_moneyness_window": 0.025,
+        "wing_ttm_days": [
+          1,
+          90
+        ],
+        "wing_min_day_fraction": 0.5,
+        "node_min_contracts": 30,
+        "node_min_expiry_months": 6,
+        "node_ttm_window_days": 2,
+        "node_moneyness_window": 0.025
+      },
+      "source_by_split": {
+        "train": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1597,
+            "extrapolated": 1176,
+            "repaired": 896,
+            "mean_abs_repair": 0.0005940843834681984
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1433,
+            "extrapolated": 506,
+            "repaired": 620,
+            "mean_abs_repair": 0.00045358142205455503
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1302,
+            "extrapolated": 77,
+            "repaired": 300,
+            "mean_abs_repair": 0.00019343094929224547
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 1680,
+            "observed": 3,
+            "interpolated": 1677,
+            "anchor": 1279,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 7.021499783715648e-20
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1675,
+            "anchor": 1277,
+            "extrapolated": 181,
+            "repaired": 2,
+            "mean_abs_repair": 4.0058657263001005e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1656,
+            "anchor": 1276,
+            "extrapolated": 595,
+            "repaired": 56,
+            "mean_abs_repair": 8.369237000667345e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1635,
+            "anchor": 1276,
+            "extrapolated": 975,
+            "repaired": 85,
+            "mean_abs_repair": 1.1263853843807954e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 1680,
+            "observed": 1,
+            "interpolated": 1679,
+            "anchor": 1556,
+            "extrapolated": 1267,
+            "repaired": 804,
+            "mean_abs_repair": 0.0007918277399226932
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1217,
+            "extrapolated": 589,
+            "repaired": 530,
+            "mean_abs_repair": 0.0005611582151912627
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 944,
+            "extrapolated": 100,
+            "repaired": 210,
+            "mean_abs_repair": 0.00015600698541272926
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 887,
+            "extrapolated": 8,
+            "repaired": 0,
+            "mean_abs_repair": 7.434529182757745e-20
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1674,
+            "anchor": 885,
+            "extrapolated": 190,
+            "repaired": 1,
+            "mean_abs_repair": 7.355344883949254e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1655,
+            "anchor": 884,
+            "extrapolated": 640,
+            "repaired": 10,
+            "mean_abs_repair": 6.093388076535161e-07
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1638,
+            "anchor": 884,
+            "extrapolated": 1067,
+            "repaired": 36,
+            "mean_abs_repair": 7.948497255335244e-07
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1491,
+            "extrapolated": 1464,
+            "repaired": 670,
+            "mean_abs_repair": 0.000983254307237865
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 895,
+            "extrapolated": 831,
+            "repaired": 410,
+            "mean_abs_repair": 0.0006493750602191789
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 237,
+            "extrapolated": 148,
+            "repaired": 94,
+            "mean_abs_repair": 7.539333469180684e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 1680,
+            "observed": 4,
+            "interpolated": 1675,
+            "anchor": 104,
+            "extrapolated": 13,
+            "repaired": 0,
+            "mean_abs_repair": 7.434529182757745e-20
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1669,
+            "anchor": 94,
+            "extrapolated": 241,
+            "repaired": 6,
+            "mean_abs_repair": 1.0395359864330927e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1653,
+            "anchor": 93,
+            "extrapolated": 770,
+            "repaired": 80,
+            "mean_abs_repair": 3.3676030462577195e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1634,
+            "anchor": 93,
+            "extrapolated": 1279,
+            "repaired": 169,
+            "mean_abs_repair": 7.544824399796624e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1395,
+            "extrapolated": 1395,
+            "repaired": 449,
+            "mean_abs_repair": 0.00105437979905242
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 771,
+            "extrapolated": 771,
+            "repaired": 286,
+            "mean_abs_repair": 0.0004949814941229642
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 159,
+            "extrapolated": 159,
+            "repaired": 23,
+            "mean_abs_repair": 3.183934608108681e-05
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 10,
+            "extrapolated": 12,
+            "repaired": 2,
+            "mean_abs_repair": 8.621258812191082e-07
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1,
+            "extrapolated": 228,
+            "repaired": 17,
+            "mean_abs_repair": 7.41481541008215e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 0,
+            "extrapolated": 732,
+            "repaired": 20,
+            "mean_abs_repair": 7.198935017591297e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 0,
+            "extrapolated": 1231,
+            "repaired": 76,
+            "mean_abs_repair": 2.3785390128876016e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 1268,
+            "extrapolated": 1268,
+            "repaired": 514,
+            "mean_abs_repair": 0.0014057408791002008
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 610,
+            "extrapolated": 610,
+            "repaired": 258,
+            "mean_abs_repair": 0.0004924403580275028
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 118,
+            "extrapolated": 118,
+            "repaired": 26,
+            "mean_abs_repair": 6.483383306998454e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1680,
+            "anchor": 8,
+            "extrapolated": 10,
+            "repaired": 9,
+            "mean_abs_repair": 5.1810075525992965e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1679,
+            "anchor": 1,
+            "extrapolated": 182,
+            "repaired": 30,
+            "mean_abs_repair": 2.7139182662514596e-05
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1674,
+            "anchor": 0,
+            "extrapolated": 625,
+            "repaired": 19,
+            "mean_abs_repair": 7.726793859911944e-06
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 1680,
+            "observed": 0,
+            "interpolated": 1667,
+            "anchor": 0,
+            "extrapolated": 1080,
+            "repaired": 52,
+            "mean_abs_repair": 7.66893065128358e-06
+          }
+        ],
+        "validation": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 235,
+            "extrapolated": 201,
+            "repaired": 74,
+            "mean_abs_repair": 0.00014375950632739836
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 208,
+            "extrapolated": 91,
+            "repaired": 36,
+            "mean_abs_repair": 8.668395877056855e-05
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 184,
+            "extrapolated": 4,
+            "repaired": 11,
+            "mean_abs_repair": 1.4995241932367848e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 182,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 182,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 182,
+            "extrapolated": 7,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 182,
+            "extrapolated": 47,
+            "repaired": 13,
+            "mean_abs_repair": 9.87829450814005e-07
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 233,
+            "extrapolated": 208,
+            "repaired": 55,
+            "mean_abs_repair": 9.794692201640817e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 181,
+            "extrapolated": 101,
+            "repaired": 14,
+            "mean_abs_repair": 2.6901412344080283e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 126,
+            "extrapolated": 4,
+            "repaired": 2,
+            "mean_abs_repair": 3.1560402408292044e-06
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 242,
+            "observed": 1,
+            "interpolated": 241,
+            "anchor": 122,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 19,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 122,
+            "extrapolated": 70,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 232,
+            "extrapolated": 229,
+            "repaired": 39,
+            "mean_abs_repair": 8.3535512958354e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 144,
+            "extrapolated": 129,
+            "repaired": 5,
+            "mean_abs_repair": 1.3463634811763248e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 19,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 15,
+            "extrapolated": 56,
+            "repaired": 2,
+            "mean_abs_repair": 1.667209327820233e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 15,
+            "extrapolated": 124,
+            "repaired": 43,
+            "mean_abs_repair": 1.201062806365542e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 233,
+            "extrapolated": 233,
+            "repaired": 20,
+            "mean_abs_repair": 5.2660591212953763e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 132,
+            "extrapolated": 132,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 4,
+            "extrapolated": 4,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 60,
+            "repaired": 2,
+            "mean_abs_repair": 5.650425313514898e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 119,
+            "repaired": 15,
+            "mean_abs_repair": 3.0747177231371745e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 217,
+            "extrapolated": 217,
+            "repaired": 11,
+            "mean_abs_repair": 5.255931107055706e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 96,
+            "extrapolated": 96,
+            "repaired": 4,
+            "mean_abs_repair": 2.5326685527039622e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 3,
+            "extrapolated": 3,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 49,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 84,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          }
+        ],
+        "test": [
+          {
+            "ttm": 7,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 240,
+            "extrapolated": 195,
+            "repaired": 93,
+            "mean_abs_repair": 0.0001360897807655231
+          },
+          {
+            "ttm": 7,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 226,
+            "extrapolated": 91,
+            "repaired": 44,
+            "mean_abs_repair": 3.957185888006482e-05
+          },
+          {
+            "ttm": 7,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 0,
+            "repaired": 24,
+            "mean_abs_repair": 4.7329027791561804e-05
+          },
+          {
+            "ttm": 7,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 7,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 189,
+            "extrapolated": 48,
+            "repaired": 4,
+            "mean_abs_repair": 1.3507698416846962e-07
+          },
+          {
+            "ttm": 7,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 235,
+            "anchor": 189,
+            "extrapolated": 168,
+            "repaired": 18,
+            "mean_abs_repair": 1.0869120892416242e-06
+          },
+          {
+            "ttm": 14,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 239,
+            "extrapolated": 209,
+            "repaired": 83,
+            "mean_abs_repair": 0.00018141405472060172
+          },
+          {
+            "ttm": 14,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 198,
+            "extrapolated": 109,
+            "repaired": 24,
+            "mean_abs_repair": 3.3630599258927205e-05
+          },
+          {
+            "ttm": 14,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 0,
+            "repaired": 14,
+            "mean_abs_repair": 4.825945405950928e-05
+          },
+          {
+            "ttm": 14,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 129,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 14,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 129,
+            "extrapolated": 64,
+            "repaired": 1,
+            "mean_abs_repair": 7.78198004700316e-08
+          },
+          {
+            "ttm": 14,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 233,
+            "anchor": 129,
+            "extrapolated": 183,
+            "repaired": 5,
+            "mean_abs_repair": 2.3086435073651401e-07
+          },
+          {
+            "ttm": 30,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 238,
+            "extrapolated": 235,
+            "repaired": 63,
+            "mean_abs_repair": 0.00018723838796604866
+          },
+          {
+            "ttm": 30,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 159,
+            "extrapolated": 154,
+            "repaired": 11,
+            "mean_abs_repair": 6.253383812472958e-05
+          },
+          {
+            "ttm": 30,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 4,
+            "mean_abs_repair": 4.2040072097020374e-05
+          },
+          {
+            "ttm": 30,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 12,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 30,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 240,
+            "anchor": 12,
+            "extrapolated": 116,
+            "repaired": 10,
+            "mean_abs_repair": 1.4388305056640267e-06
+          },
+          {
+            "ttm": 30,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 235,
+            "anchor": 12,
+            "extrapolated": 217,
+            "repaired": 48,
+            "mean_abs_repair": 9.141823798341776e-06
+          },
+          {
+            "ttm": 60,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 216,
+            "extrapolated": 216,
+            "repaired": 18,
+            "mean_abs_repair": 6.100466849427423e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 156,
+            "extrapolated": 156,
+            "repaired": 3,
+            "mean_abs_repair": 1.380807245187195e-05
+          },
+          {
+            "ttm": 60,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 1,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 60,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 123,
+            "repaired": 4,
+            "mean_abs_repair": 8.782107894694406e-06
+          },
+          {
+            "ttm": 60,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 197,
+            "repaired": 22,
+            "mean_abs_repair": 2.8927207896464386e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.85,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 200,
+            "extrapolated": 200,
+            "repaired": 17,
+            "mean_abs_repair": 7.984374052776056e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.9,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 127,
+            "extrapolated": 127,
+            "repaired": 3,
+            "mean_abs_repair": 1.0629051902118972e-05
+          },
+          {
+            "ttm": 90,
+            "k": 0.95,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.0,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.05,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 0,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.1,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 242,
+            "anchor": 0,
+            "extrapolated": 82,
+            "repaired": 0,
+            "mean_abs_repair": 0.0
+          },
+          {
+            "ttm": 90,
+            "k": 1.15,
+            "days": 242,
+            "observed": 0,
+            "interpolated": 241,
+            "anchor": 0,
+            "extrapolated": 167,
+            "repaired": 7,
+            "mean_abs_repair": 1.2954316670899154e-05
+          }
+        ]
+      }
+    }
+  }
+}

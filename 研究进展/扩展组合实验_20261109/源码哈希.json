@@ -1,0 +1,22 @@
+{
+  "expanded_market.py": "97f05fc3519efc771775d5d5ede706c4f8ed65de6c7c308cffd0b57f7d9b43f8",
+  "expanded_surfaces.py": "b92aec864974975ab37c5cd07235e8e7140127c80311b75460ab2013220c87f7",
+  "extended_curve.py": "f811eb4d02ed2c381726061a8573e4beeff04e42787ad354e11eff6cd2160be9",
+  "extended_data.py": "f49cbb244f9d4341025612acdc31373adc443ac35005ab49da39e5730b235471",
+  "extended_delivery.py": "4b6edab662963eb4c7c2a9fe8ea28a396ff6e683f955bbc078dc6e0577bd9178",
+  "extended_policy.py": "e8ee944298d45a0de9fdcbd55092ced76be2d5e3a6de4d6db4b7bc16f00ec81a",
+  "extended_registry.py": "cd7dc816eec1e91880c38e6004f7a81313bb00b94b85d59e16b890ae44b2e2e8",
+  "extended_replay.py": "8611077ec1a53bb3b80cdb00f59e173196f34d3b937416533c17fc5e42a111e2",
+  "extended_report.py": "9155b1fb20548a7c8f150c206edb1b65027b2d88883e1269775a66e6011b4e4c",
+  "extended_train.py": "d87f9a8e82ba1950961dd8e68a58c634ab830a7ae87486ce6898b472f3569267",
+  "interim_report.py": "91ae7929f142fb44023fd429e7f5469fb46ba681da3301f977561c7bc190e219",
+  "launch_detached.py": "a01916dc25c4afe8f84b7c7503ea9e34012717ac81dbf429514a3cb85e7bb646",
+  "monitor_resources.ps1": "e7df04e1f7110d37a22d46534593c8667835e083c8be39c2e69bb43a8615ec20",
+  "run_extended.ps1": "75a1c527b6324f72ca3b942f65c10edc6d2f9cd3932b285b28f7a6d238bd4a1f",
+  "run_extended.py": "c34257ffff584dd00405dedce487152f61b44c99dddffd0b4fa317457716f9b2",
+  "study.json": "a1c11dfd47a3f64e0096380c5cba8425934f622910b9459bef1cb5d14c308f4d",
+  "verify_extended.py": "aa6326df1dd5f10a7e350137387ceb5d1d232c646124950a8671bbdd8e6a1595",
+  "verify_policy.py": "cd370c046c91ecc1e59fa74e8c3333beb2aeefe3271033eef34babc0f327e9c5",
+  "执行记录.md": "afe48b046f5fc44366762291058eb50aa9fa4d0354e4642854f07b5f87d420ec",
+  "运行说明.md": "2006b5702f5886dbf84c6ad67c52982231439c9194c9a34d2019cbeac1badf32"
+}

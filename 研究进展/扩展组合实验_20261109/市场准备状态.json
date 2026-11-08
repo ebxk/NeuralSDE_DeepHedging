@@ -1,0 +1,62 @@
+{
+  "2025/C2": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2025/C0": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2021/C0": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2022/C1": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2021/C1": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2025/C1": {
+    "single": "ready",
+    "pool": "ready",
+    "members": 3
+  },
+  "2021/C2": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2022/C0": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2022/C2": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2023/C1": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2023/C0": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  },
+  "2023/C2": {
+    "single": "ready",
+    "pool": "not_requested",
+    "members": 1
+  }
+}

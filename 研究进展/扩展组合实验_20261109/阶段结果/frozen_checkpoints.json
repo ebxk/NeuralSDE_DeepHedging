@@ -1,0 +1,2594 @@
+{
+  "2025_R0_C0_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "18fcc0863d628b14373752e0df47bfb7544cfc9d3e7f19f911a64d8f2f4359bf",
+    "best_epoch": 40
+  },
+  "2025_R0_C0_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "111e6e51f817934e40916f2403b1fd6213c5a460e06b9a2c979855d42d2f7072",
+    "best_epoch": 20
+  },
+  "2025_R0_C0_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3787ca0a0ef8c2bc024a7921899d6610a131666d5699acdef7ef4be43fd7c6cc",
+    "best_epoch": 60
+  },
+  "2025_R0_C0_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "ef25c50c3403ff01df11a6f7ea653ad09904ee4b46896f9e024e1345bc0214ef",
+    "best_epoch": 60
+  },
+  "2025_R0_C0_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "df8666693cf3303e1bbe2b5ee48f4f3d4c1cb8416f7c29ee07daea116e8073bd",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "4f31a12a01722567192550cb94568ceb16ca9f66f63317fe5093125a84d29359",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "098c6d91452bd35b6b264b89eb64d5fcf9f684595153c72a81358053efbcf77f",
+    "best_epoch": 70
+  },
+  "2025_R0_C0_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "13cc88ef6c8e5d3d8bc0126f84e296495ce8d693caa70ffa0f674d0875404f85",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1900b21c65d72f863a63ead983671d073048fb6d89d9dc8c3d3fadfa60ab28df",
+    "best_epoch": 20
+  },
+  "2025_R0_C0_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "319221b0d3dbcef521e31526f745cdc72e56d526709b4b4bd3b9a08725449e72",
+    "best_epoch": 40
+  },
+  "2025_R0_C0_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1a75af683f966959ac965abec22e9da3e92cdc727c907d9805eba5d0aaaa126f",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "f81f31274dbe8e6fe319e4b923a1a907a544bb2e7c71fd65b8fe6ca97614f991",
+    "best_epoch": 20
+  },
+  "2025_R0_C0_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1137977aaacf6cbae6dffd95bc060f1cfed3111c9e630c165d397dca59c9eee6",
+    "best_epoch": 40
+  },
+  "2025_R0_C0_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7ad010025ed33ea79df9da78817143c363d9b582c1d99944df471c640c06cc71",
+    "best_epoch": 20
+  },
+  "2025_R0_C0_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "310a2ee8109be1d6a2c8b0c1d27ea86ecd11b93e27695734b25a3e387422b48a",
+    "best_epoch": 60
+  },
+  "2025_R0_C0_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "223aa9dd90b977a64d020dd769111d8c509e96fa2a210fb9f65f2eeedf58129a",
+    "best_epoch": 60
+  },
+  "2025_R0_C0_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "910add30f1f083b8e8bb1af94759cf764910d12821b2aefb8844eaae384513a9",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7e5b1977c9143e23be6ddaadb41e3b7d38681eeec7923fc73124a97e4b060035",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3683e943d5f449b39523b314908bf367873e9b58d0a650e1ef6040c046bc54fe",
+    "best_epoch": 70
+  },
+  "2025_R0_C0_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "6b88601cfc603ee2f35a2fa9a88a5d6cc78ad59d817fe4b7e819585db4d2a8d2",
+    "best_epoch": 10
+  },
+  "2025_R0_C0_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2be59b0fbf1dc9d97aec7482e059bad2b8f48ed209195c2cd734f5fe563984c4",
+    "best_epoch": 20
+  },
+  "2025_R0_C0_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "901aa573694187dcaa000ecba4f179f24e3f2cd3e57a093c4920cf012d9ab47f",
+    "best_epoch": 40
+  },
+  "2025_R0_C0_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7e8cb3ec9a4c42a60153aff453633511cf1c6bd17c6124a10a3fa827d333b32e",
+    "best_epoch": 30
+  },
+  "2025_R0_C0_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0f9df0a4e66918c39a31dae17441a369de217ed46c9fae9cfe00a85e9e28f6e1",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b486820cac238165fe58d95982f2305c3528cfe331f816923c0be7150e3e2a8a",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "237307765f687aca82331df6d07532a160818404d788f5d0057d413f279d690a",
+    "best_epoch": 70
+  },
+  "2025_R1_C0_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "9af8a77d7d0aa4755087e0f75376db1a93b17318eff074232eff6a457520c955",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "223fa72d09cbe1484fc11a56260c33574cbc569e148e27af32313f22f7c34965",
+    "best_epoch": 60
+  },
+  "2025_R1_C0_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "bc4f613f0359f80aa73bedcd01b291c3614e994de6a34ddec75e39373d612c4d",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a0ffad1fde601aab38a7bc6c4ceb24684f0426efe63be6194cf13e95b753aa98",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3d69ab70e70fc7aca81721d45dd34df92d4185f9c6804d46e9a1d37279809b64",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "be47cf445dbd58181803bcf0984423c7c2c0c6ee083514a592dee6e0c9ad37ed",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3b05fb179552cf6437a62e78cce7854df9d7db1fbe1291c0f898b047cb6db031",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "305e9b6346bb3a212c2aa0ef8b2062ead129d506ca3dc4f8d531f2240b7c471d",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "ce8d3ba4c4f34f317409f5fda7b775438437128d4b315cc4924325d28c9a316e",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "835f0f3b1ce687cc9395815b60ae7ecb4b7fbedc7103e2b3fd410244b45877e7",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "e38a0e71699fd2a9a6b3ba6cbc6b175d53f5a3dfffb3d15b64d833234ed1df26",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a6a8897b7c736e912ed0b9d504ceb31896afee284523aa512bddcd873e3632db",
+    "best_epoch": 30
+  },
+  "2025_R1_C0_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "9abd125d58480fd211ba76b976a7e737b828ba3643a9576ef7d37ce6f15b4003",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "10619a13cbb7efdd9cc6e47be6f28968cc1944676ddd4ed8e7509c832f4f7e74",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2693b45ea1f404a7d3c12e4f1ea790b6b07b0a97d23ab4ec2737656028077d49",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "656456f5d5f072c34d51ff094da26f3c6b02e7dd6cb5e77dfe01e61b7b38b761",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "73b97e107d363d162dc03dd48302e0469aa40988c0f392c9ad52e70b9eff638e",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "987882b3804c20dfba741e8c092085c83a6f5e44f92b0ba3b4d295017dc8dc06",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a6f0ff2e4980df5e1f7e7f94537eab0e6967d37300a853ccb6804f80cc3838e8",
+    "best_epoch": 20
+  },
+  "2025_R1_C0_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "63cde80f83ba70bc13dd567c201f990f4d143ded7cc8cdb9b7e6bde9add756fd",
+    "best_epoch": 40
+  },
+  "2025_R1_C0_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "edaeaa33ec3407d95f799670e432c8965a1f3d6357c1f03cdd6e334a645c1aa7",
+    "best_epoch": 10
+  },
+  "2025_R1_C0_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C0",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "88fcc73a6a76ec60ab5c2da7075fba7c64901fcf77fb84716ac7992428e38e08",
+    "best_epoch": 20
+  },
+  "2025_R0_C1_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "267343ead2220d320b7826590441fb8be2a1fc4bb64bb42c2360f810c3b04b8e",
+    "best_epoch": 70
+  },
+  "2025_R0_C1_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "72945a588e7a1092e7b76f605e893ddfaedbec2fc9c8a61e6c395ec191f242b1",
+    "best_epoch": 20
+  },
+  "2025_R0_C1_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3747e55b15b4950ee3adbd7b21c0d23c490bd0022ed7621a17ff686fb91c80a1",
+    "best_epoch": 60
+  },
+  "2025_R0_C1_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7cc2ee0c458efb86d5662250b31ac13228ac12bffe4bb7614683588e25d7fb67",
+    "best_epoch": 60
+  },
+  "2025_R0_C1_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "667fba1911930fb95ac9b16be1d4f924a2203e80da3af89e4eddaa3f9995fcd9",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "eb58bbadee69ec0662ae46e22ba58110105939b1cb4ac1ce7d8eb06b022bc731",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "986dfe7668b747245bbe22f281f1219de3017b7b17f354c8d35dcd2c4acf038b",
+    "best_epoch": 70
+  },
+  "2025_R0_C1_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "cb6981d53a0bd1946403ebed8acc153ea113b1345f4e0c8ede9dcdbcff6f3f41",
+    "best_epoch": 10
+  },
+  "2025_R0_C1_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "dfcdeaea6d81a306be64fc13b84de63a249cc360a51c033285431241b76de1bc",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "5c6a46f40b59cc9d57680ca54fd59c8c5555f5d5893cbe0b889b256f779b573b",
+    "best_epoch": 40
+  },
+  "2025_R0_C1_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2b3a650991465bcc2830756cf6faa29cc4e2be4a197cbc622b261517d5b75452",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "965a74e3875c71957dd2512ae5585494dd9c01c2673f516b694d20a7eda28b0e",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0bc7f8e55662b22b186936ebd46c9cdc38633b5605019e5cc2d0f371fa7983f9",
+    "best_epoch": 70
+  },
+  "2025_R0_C1_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "850bd5909e5a160b1116b0bfde5fe5ce95eb99ece13f0d2b73cc4101bdc46f76",
+    "best_epoch": 20
+  },
+  "2025_R0_C1_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a68b1dd6b2c0346bcb90cbce0f40a2c762621525058fc3437ba90d1ec7535db3",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c121415c410327683ef075df763accf9b85e5641fad914e522cad124fe3ee963",
+    "best_epoch": 60
+  },
+  "2025_R0_C1_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "740fd9cc964b4aefd7e0c132fc072e0e594d6e2805d237de358e99abdbceaab5",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "03408b5dddf1cae16d2b780f7194e5d8a6d9ae91911e7140e05646c729465088",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "71a46e5ac9cc1076d460aaf6100ee08a577d6d4824a5a6e5c18000cf53f9fe41",
+    "best_epoch": 70
+  },
+  "2025_R0_C1_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "903c385bd5ca492c77836cd53d0ded81951b2dc44a8708f0215bca8ca4304c08",
+    "best_epoch": 10
+  },
+  "2025_R0_C1_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b89decc165e77f30d0fa15d56363a890d54fc3a600982cf935b15f77afabf57e",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "73c04d4c023fc1999d8d3e8e8fb3b687a7834623d0288dbf06553bc96bfef9c5",
+    "best_epoch": 40
+  },
+  "2025_R0_C1_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0d36851ec04896b321c77773f88f39235c3441676c7720859b948d10b3448d55",
+    "best_epoch": 30
+  },
+  "2025_R0_C1_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c71144dc78f5926fb44625c114654e76d7ca675fe72fb68c54b806c8a41da537",
+    "best_epoch": 30
+  },
+  "2025_R1_C1_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c098eb8a2d26725382f0ac581ea17855de3f67d9a44e923b59e4dab39c513945",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b6d7b2df7d25822d2b45d51ccdf61dd1cda0a6d82f0b5e372b00fc95400f9ebd",
+    "best_epoch": 50
+  },
+  "2025_R1_C1_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "dddc3285961f682379e3c024bb84199c45c3b5397623ea4902ecfc16269e25d7",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1d23b4defc300a17bcb2fb9aa36f9693371a8cf63062f202ba5231ceb1e5ec2b",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c6e6829f0d0c5fb153aa2acf8f9254bf36c790d7f1f3967cbec69123d2b7fbbc",
+    "best_epoch": 50
+  },
+  "2025_R1_C1_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "dbae0b7d6c24dcfd8e67e9f84f341e54480e204c36656b4417c8328538436d3e",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0b8107471c5cfe779378ae300a5a0eac6043b9973f8cc46af182c16d409d44d2",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "5d30c29d6c1c359fe3f022e69596eb5316c294c22caaba59174be2eba0767b6a",
+    "best_epoch": 30
+  },
+  "2025_R1_C1_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2309ddfb0f08948f1ba1b7216d99c3a71b8965d7a38baaf57deb12358de04cad",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b5f17fa693a505440f16329218321175fff5788efa059ab59d7d1a4dcf371369",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0d1e4134aea39191f52a19b90e6be64c0c917ee0bd00b76eca9f81ca3e2097c0",
+    "best_epoch": 10
+  },
+  "2025_R1_C1_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a410e7a4f233c5a25c5d5d694514d92407969d74482fdcb9b276528115040dab",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c837c1e9e81c7292589faf0c56b6e7472f7643b2d104fe3afeb27b95a3cd0170",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "da3d8f0954f3f4f40f4124778a40f5ba756cfad070ebd8f4e81b2c437b09cf0c",
+    "best_epoch": 50
+  },
+  "2025_R1_C1_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "40f3f56f2f8607957594c7dc7dbb74f04c26a4bcc4c8a3907e44b353605bd702",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a67d4258427f60a4cfa1cd762655149c6fc465b69db387900aa031d7f03178eb",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "82409742256f71d8a81b84ce7558f226376d545301386db735028567808562d5",
+    "best_epoch": 50
+  },
+  "2025_R1_C1_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a30d6bee106b8363e2119f5f1337a55de291ba4cf391a1f586f83e182ba7c17b",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "874e2f1797b9f29573af5577a72c6898e7d66566573c6ad143ee695ff9e61bef",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a4e9934bf5b1e4ddd1e8e0c9bafbf69e0da5beda6ab8c09d5f13ea9a440c9879",
+    "best_epoch": 30
+  },
+  "2025_R1_C1_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "34efea920b062c615e24e7242b7b194cca895db001d7bd9b4ca0fa2009680567",
+    "best_epoch": 20
+  },
+  "2025_R1_C1_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "4fcd0bfa69013a9990168eaab4a4cc0b202453410ba20130ba4e73b27917d114",
+    "best_epoch": 40
+  },
+  "2025_R1_C1_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2798429126617b49257e96944d2c65b47afe1ff90a7323b941ae86383528bc6b",
+    "best_epoch": 10
+  },
+  "2025_R1_C1_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C1",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0cc56f942724a57e1113a99427631ec73f786df6cb531ad22616a1604e608447",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "ae601463ff0107abaea487a7c0c2c84d523446edfa8f4d006970b5d065b52fb9",
+    "best_epoch": 60
+  },
+  "2025_R0_C2_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "d09e88a6fbd478f53b90638d315bdc37cb1c2138ae192ea6a46dcbaf7e759bbe",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "41dbc225e810ee6fdc40dadeb16d020f06359d03b0e2f6870089988cf9efbccf",
+    "best_epoch": 80
+  },
+  "2025_R0_C2_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1a61f239ff7812d9541c44920b156fb7be324248e567f51bf8f2916fa723fb36",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "04d98b509d52a4209564f70e670986f2740082e01ab346aab981d2c9eaaaa899",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "5f1a2de6009831c4a21104811d386b1cf7302c907e6559f22e09be86149a606b",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "03bb198a29b8aa1fc986b2d8d65a680b831997350ac3ecb2940d004d419cbca1",
+    "best_epoch": 50
+  },
+  "2025_R0_C2_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b70ea9138f4e85cb2596ab5006ee6741852c8bd97e36ebc515a1b46928d2e45d",
+    "best_epoch": 10
+  },
+  "2025_R0_C2_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "93188e9fcf6b67029ebcce0de4c0283b802ab99a08054f4291b3a691ef59885f",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "27ca9d4fb5c9210c7d748d1ef071a6985e25cea1b320c3bc2813442e990a6b50",
+    "best_epoch": 40
+  },
+  "2025_R0_C2_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "687a074704105df25a42d6b2bb6f219e80ad7cbee79cc844fc415cf85f3c7e17",
+    "best_epoch": 10
+  },
+  "2025_R0_C2_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "65bd1981ffbba683703a7a7aeda79117d03c807790aec24575c9ce0a2d44e863",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "ee1bfa95c8e047415b6a803a106e1096ef2855e583bd0daf8ba644af7a346299",
+    "best_epoch": 50
+  },
+  "2025_R0_C2_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b8dda57f42ce9f718ed4b4b6084724badffb21a4aeb33e98b218cfc64f355eba",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7817a66b6babd4717486a6c2098d90fa9f3d5ae0910b004567c57a4d089a4817",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7c150b7157e2d58f0ea5f575a8e852a8efed3815d0de0078987aa4a917e74f13",
+    "best_epoch": 60
+  },
+  "2025_R0_C2_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "01ec265f55e7023947875ee821fb43eea1847b5893f605732bbc45e0291abe33",
+    "best_epoch": 60
+  },
+  "2025_R0_C2_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "e3df2f47193e600de22f9e44dbd0fdbc432b09bd320ddb9add70d0e404d47cdd",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "d2531837a9d4e222dd12e39acbcb6d14b9bc11b4cec0e60c4e265af5a27355e2",
+    "best_epoch": 50
+  },
+  "2025_R0_C2_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "7741de07803ec18b818254cecc601d3ffb4c986d5e81f9a9a8bff8007adab582",
+    "best_epoch": 10
+  },
+  "2025_R0_C2_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "90042151a33bdc680a4dbeb3ecb698276c8caac2f7160252c658aafba74e58e6",
+    "best_epoch": 30
+  },
+  "2025_R0_C2_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2c1002e6346e19c627f9bf5a4db497f083886a883c36a0967e5930ab754051fa",
+    "best_epoch": 20
+  },
+  "2025_R0_C2_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "587571a9527211b1c3e6f2dc9160cd59181b93a4d39c070b43b872c9eee20a2e",
+    "best_epoch": 10
+  },
+  "2025_R0_C2_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 0,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "d9e7478718c3cde677d4622d57c69d272f4a1b803e4af1fd3c567733ebb256d0",
+    "best_epoch": 30
+  },
+  "2025_R1_C2_off_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "563ca199ceda6fa586b9072263bb6bac1106761561d5d69900ba4b5cdd1e2743",
+    "best_epoch": 100
+  },
+  "2025_R1_C2_off_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "73a24412316d2862503114f92a77874ebfd89e2fd4b4f374b47cd7f7d14cd164",
+    "best_epoch": 80
+  },
+  "2025_R1_C2_off_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "22d272da6a8789b7a1726234b516d56dec16b1830dce46a1d2ea03bedf688c55",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_off_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "5186b858e6e49c61910e5ac6394efcea08e69e6ac3acb493021b0da63d49a5d3",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_off_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "a061204b9ca664bcdc00f1388d55241203c8129e205640187cc395894e122ed9",
+    "best_epoch": 50
+  },
+  "2025_R1_C2_off_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2129faff0219ec89f9e8131afab95e6dcad8de6f7782f28d7214fce20dd8ad63",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_off_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "e5fcb32735d6e7c9820689062d64566fe97d9acde2d62ae889a9695cfc34c77c",
+    "best_epoch": 80
+  },
+  "2025_R1_C2_off_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "358ffc89868f54f65ced84d83675e2ea310bf302abc0cc2f7ff4dcdd599966bd",
+    "best_epoch": 80
+  },
+  "2025_R1_C2_off_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "6702cf1fc8180a897d55c14e6053dfa87dfe4df07f437c1247e4f7824f9c6aeb",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_off_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "69fc6ef28fdaaf009138931aab5fffbd27bf029ad312621ee0bd0690c7ee3ab1",
+    "best_epoch": 100
+  },
+  "2025_R1_C2_off_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "2b7188d068a024a231b71f91f4c8cd018f2afc5f5cfd89d4d71f9ff4d5618ed7",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_off_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "off",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "f5160d8fd0b700767b591b2f8bca0e8918668e14bcfd717f81cb4c6d771e5efb",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_anneal_W0H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "b2dd9956ee4bec519d73bb45fcc4cff3fdbc5de718aad12c99f52f3c389d781e",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W0H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "e64c9f1fe67bb38a8d5056703f55ad33b2c21fa9df33ab1f9451412014c71bba",
+    "best_epoch": 80
+  },
+  "2025_R1_C2_anneal_W0H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "496a089351643d599181ed82f61e6e0cb5707acf2bde12d2998ef57a19653f7a",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_anneal_W0H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "c48f4eb9c4a2c208ef2d32d0fc5af07c6fb45445034c2d68c2ee3b3a8458d579",
+    "best_epoch": 70
+  },
+  "2025_R1_C2_anneal_W0H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "5301d33b60774f9a85ba29a2982df5d55abcb0c7cccf5a5a50829e3314935194",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W0H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": false,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "1d29ed664310ac5c5edb20f4bf3a6d39ccd816953d7d2abb233a0a94497cddbc",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_anneal_W1H0_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0e898eed75f8d9d528ed62f1e6cec3e5bbc99143455a5b141f274152b42ceee0",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W1H0_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "0b415ade9ac2254e96ee2d93defcc08ec67aabbf8869797f39fad5d5159438e1",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W1H0_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": false,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "8ea9cac71c074d422c11b0207462bdbbcd327d920a8dbd2294bc60d9bcce78f6",
+    "best_epoch": 60
+  },
+  "2025_R1_C2_anneal_W1H1_5bp_L0_S0_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 0,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "8dbfaa66de7c926f34505f47bbe41858b128196bd9fb4b43a9ddc284e2fcf562",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W1H1_5bp_L0_S1_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 1,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "42c686a1eb9c5911bc14d8b2c3e82021a5bccfa1a418770fe41972934d0d0edd",
+    "best_epoch": 10
+  },
+  "2025_R1_C2_anneal_W1H1_5bp_L0_S2_single_wide": {
+    "job": {
+      "end": 2025,
+      "rep": "C2",
+      "r": 1,
+      "t": "anneal",
+      "w": true,
+      "h": true,
+      "cost": 5,
+      "lam": 0,
+      "seed": 2,
+      "market": "single",
+      "policy": "wide",
+      "family": "main"
+    },
+    "sha256": "3882ff45184af1a852c6ad81fa5155e05fa8c864affca3948f76b024ad36010c",
+    "best_epoch": 20
+  }
+}

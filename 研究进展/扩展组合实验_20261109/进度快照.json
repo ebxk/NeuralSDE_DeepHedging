@@ -1,0 +1,41 @@
+{
+  "snapshot_at": "2026-11-09T01:32:45+08:00",
+  "stage": "training_in_progress",
+  "registered": 1776,
+  "training_completed": 1358,
+  "checkpoint_reused": 36,
+  "new_training_completed": 1322,
+  "failed": 0,
+  "full_evaluation_completed": false,
+  "remaining": 418,
+  "folds": [
+    {
+      "evaluation_end_year": 2025,
+      "registered": 804,
+      "training_completed": 684
+    },
+    {
+      "evaluation_end_year": 2021,
+      "registered": 324,
+      "training_completed": 324
+    },
+    {
+      "evaluation_end_year": 2022,
+      "registered": 324,
+      "training_completed": 314
+    },
+    {
+      "evaluation_end_year": 2023,
+      "registered": 324,
+      "training_completed": 36
+    }
+  ],
+  "median_new_job_seconds": 1009.522704150062,
+  "minimum_new_job_seconds": 323.13973230007105,
+  "maximum_new_job_seconds": 3552.127356000012,
+  "cpu_workers": 8,
+  "gpu_enabled": false,
+  "interruption": "Stopped near 2026-11-08 02:08; resumed 2026-11-08 14:15; exact cause unconfirmed.",
+  "interim_scope": "2024-2025, 773 historical paths, 48 main configurations, 3 seeds, 5bp, lambda=0",
+  "previous_complete_commit": "b401d88f77e6d583bbe5f6fb18eba0a56b0ff82a"
+}

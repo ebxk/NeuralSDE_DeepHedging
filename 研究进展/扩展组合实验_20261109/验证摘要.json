@@ -1,0 +1,43 @@
+{
+  "legacy_original_18_max_error": 2.0772746231467742e-09,
+  "legacy_account_precision_gap": 5.682548534892765e-07,
+  "registered": 1776,
+  "folds": {
+    "2025": {
+      "paths": {
+        "2022": 2626,
+        "2023": 387,
+        "2025": 773
+      },
+      "teacher_valid": 79421,
+      "teacher_decisions": 87303
+    },
+    "2021": {
+      "paths": {
+        "2019": 1562,
+        "2020": 350,
+        "2021": 299
+      },
+      "teacher_valid": 46953,
+      "teacher_decisions": 52106
+    },
+    "2022": {
+      "paths": {
+        "2020": 1930,
+        "2021": 299,
+        "2022": 353
+      },
+      "teacher_valid": 57316,
+      "teacher_decisions": 64276
+    },
+    "2023": {
+      "paths": {
+        "2021": 2252,
+        "2022": 353,
+        "2023": 387
+      },
+      "teacher_valid": 67366,
+      "teacher_decisions": 74996
+    }
+  }
+}
