@@ -1,0 +1,17 @@
+{
+  "identity": "55b51d35c6c9fba939a7abe2783e0b0e9bc523ebf11022efa22532323c5d1e16",
+  "version": 1,
+  "files": 2050,
+  "bootstrap_seed": 1105,
+  "blocks": [
+    1,
+    3,
+    6
+  ],
+  "samples": {
+    "2021": 299,
+    "2022": 353,
+    "2023": 387,
+    "2025": 773
+  }
+}

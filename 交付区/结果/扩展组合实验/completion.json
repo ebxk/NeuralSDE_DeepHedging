@@ -1,0 +1,15 @@
+{
+  "expected": 1776,
+  "evaluated": 1776,
+  "unavailable": 0,
+  "failures": 0,
+  "baseline_unavailable": 0,
+  "missing": 0,
+  "replay_files": 2050,
+  "complete": true,
+  "excluded_stale_replays": 0,
+  "paired_definitions": 27844,
+  "report_identity": "55b51d35c6c9fba939a7abe2783e0b0e9bc523ebf11022efa22532323c5d1e16",
+  "historical_evaluation": "2024-2025 already observed",
+  "repetitions": 2000
+}
