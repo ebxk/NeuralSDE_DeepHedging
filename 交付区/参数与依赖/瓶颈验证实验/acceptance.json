@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "triggered": 45,
+  "completed_weights": 45,
+  "maximum_registered": 117,
+  "errors": [],
+  "stages": {
+    "foundational": true,
+    "risk_main": true,
+    "risk_promoted": false,
+    "prediction_promoted": false,
+    "planner_diagnostic": {
+      "status": "complete",
+      "promote": false,
+      "states": 64,
+      "results": 192,
+      "by_seed": [
+        {
+          "seed": 0,
+          "relative_mse_improvement": 0.00010473535245584662,
+          "accepted": 3,
+          "states": 64
+        },
+        {
+          "seed": 1,
+          "relative_mse_improvement": 0.0006748430431317497,
+          "accepted": 4,
+          "states": 64
+        },
+        {
+          "seed": 2,
+          "relative_mse_improvement": 0.00048745645747119134,
+          "accepted": 3,
+          "states": 64
+        }
+      ],
+      "limitation": "Independent confirmation is used for action acceptance; not unbiased policy evaluation.",
+      "identity_migration": "diagnostic_migration.json"
+    },
+    "report": {
+      "status": "summary_generated",
+      "verified_replays": 594,
+      "intervals": 2664
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "expected": 33,
+  "results": [
+    {
+      "task": {
+        "key": "2025_plain_s2",
+        "end": 2025,
+        "kind": "plain",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_plain_s2",
+        "end": 2021,
+        "kind": "plain",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_plain_s2",
+        "end": 2022,
+        "kind": "plain",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_plain_s2",
+        "end": 2023,
+        "kind": "plain",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2025_teacher_s2",
+        "end": 2025,
+        "kind": "teacher",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_flat_s2",
+        "end": 2021,
+        "kind": "flat",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_real_s2",
+        "end": 2021,
+        "kind": "real",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_flat_s2",
+        "end": 2022,
+        "kind": "flat",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_real_s2",
+        "end": 2022,
+        "kind": "real",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_flat_s2",
+        "end": 2023,
+        "kind": "flat",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_real_s2",
+        "end": 2023,
+        "kind": "real",
+        "seed": 2,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2025_plain_s0",
+        "end": 2025,
+        "kind": "plain",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_plain_s0",
+        "end": 2021,
+        "kind": "plain",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_plain_s0",
+        "end": 2022,
+        "kind": "plain",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_plain_s0",
+        "end": 2023,
+        "kind": "plain",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2025_teacher_s0",
+        "end": 2025,
+        "kind": "teacher",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_flat_s0",
+        "end": 2021,
+        "kind": "flat",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_real_s0",
+        "end": 2021,
+        "kind": "real",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_flat_s0",
+        "end": 2022,
+        "kind": "flat",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_real_s0",
+        "end": 2022,
+        "kind": "real",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_flat_s0",
+        "end": 2023,
+        "kind": "flat",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_real_s0",
+        "end": 2023,
+        "kind": "real",
+        "seed": 0,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2025_plain_s1",
+        "end": 2025,
+        "kind": "plain",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_plain_s1",
+        "end": 2021,
+        "kind": "plain",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_plain_s1",
+        "end": 2022,
+        "kind": "plain",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_plain_s1",
+        "end": 2023,
+        "kind": "plain",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2025_teacher_s1",
+        "end": 2025,
+        "kind": "teacher",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_flat_s1",
+        "end": 2021,
+        "kind": "flat",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2021_real_s1",
+        "end": 2021,
+        "kind": "real",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_flat_s1",
+        "end": 2022,
+        "kind": "flat",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2022_real_s1",
+        "end": 2022,
+        "kind": "real",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_flat_s1",
+        "end": 2023,
+        "kind": "flat",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    },
+    {
+      "task": {
+        "key": "2023_real_s1",
+        "end": 2023,
+        "kind": "real",
+        "seed": 1,
+        "trigger": "always"
+      },
+      "status": "cached"
+    }
+  ],
+  "complete": 33,
+  "failures": 0
+}

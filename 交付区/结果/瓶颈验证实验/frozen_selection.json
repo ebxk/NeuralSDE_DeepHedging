@@ -1,0 +1,83 @@
+{
+  "stages": {
+    "foundational": false,
+    "risk_main": true,
+    "risk_promoted": false,
+    "prediction_promoted": false,
+    "planner_diagnostic": {
+      "status": "complete",
+      "promote": false,
+      "states": 64,
+      "results": 192,
+      "by_seed": [
+        {
+          "seed": 0,
+          "relative_mse_improvement": 0.00010473535245584662,
+          "accepted": 3,
+          "states": 64
+        },
+        {
+          "seed": 1,
+          "relative_mse_improvement": 0.0006748430431317497,
+          "accepted": 4,
+          "states": 64
+        },
+        {
+          "seed": 2,
+          "relative_mse_improvement": 0.00048745645747119134,
+          "accepted": 3,
+          "states": 64
+        }
+      ],
+      "limitation": "Independent confirmation is used for action acceptance; not unbiased policy evaluation.",
+      "identity_migration": "diagnostic_migration.json"
+    }
+  },
+  "policies": {
+    "2025_plain_s0": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205",
+    "2025_plain_s1": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847",
+    "2025_plain_s2": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38",
+    "2021_plain_s0": "97681382c20bd89d06977f82f58fce442a3532d46e305c27a8a03a6e26882522",
+    "2021_plain_s1": "d4024facad84abe31f5c413a4985c89e68d4e7c0ad4b943e7731c736e84dad96",
+    "2021_plain_s2": "69176002121a06351017050034232e2620346806d3f02d1b57f0d867d692c4eb",
+    "2022_plain_s0": "86e4bfe3b504a9e8d57fde62a71e4c41f534448adf4761de37a928cf8d96e597",
+    "2022_plain_s1": "9f9f5e73e5394b55d95c018ee6a029b81d09ab97120043a9a110a7ad0ac36ea2",
+    "2022_plain_s2": "be712baf398eeff9a433b38eda2b7db648ee7f47123d7e3ab15ee3f769bd82b9",
+    "2023_plain_s0": "685ef92baf71096547b47574af5d53ac41ccd42369195e99b25f022d1522474c",
+    "2023_plain_s1": "a65feed72c7da8c1fa4e5f3c0c4e543b5ed0905d30d295cb70ac3b2c68613758",
+    "2023_plain_s2": "8c575cdf883d31fa71a94f455fc2a718883e51351ff8a6bacbcd0b60e6fee845",
+    "2025_teacher_s0": "0bc7f8e55662b22b186936ebd46c9cdc38633b5605019e5cc2d0f371fa7983f9",
+    "2025_teacher_s1": "850bd5909e5a160b1116b0bfde5fe5ce95eb99ece13f0d2b73cc4101bdc46f76",
+    "2025_teacher_s2": "a68b1dd6b2c0346bcb90cbce0f40a2c762621525058fc3437ba90d1ec7535db3",
+    "2021_flat_s0": "2878b4f0154036601d9ecebc0127e5230512a74c7e71e7ba77c42924110595f3",
+    "2021_flat_s1": "2c03730e28980c2185d1d1c39ddb199b9d6f0e14579e5bad24424faaccdcd6cb",
+    "2021_flat_s2": "5617240cda9def98d95b062d68b9ddf99ac1d4f124424da8db532ba8b084b60e",
+    "2021_real_s0": "f35385d64a6932f6ca0324e1bba1fc06c5b3895c06ad8773d33714d71ca02d5d",
+    "2021_real_s1": "65f436c42f782bd9b14e771c3c32f584acd2a2b846527493dfb69015277e09f0",
+    "2021_real_s2": "0c30a64801e862333885fea94d054d39b2dfc1de6f92bb9cd88df977141c09c4",
+    "2022_flat_s0": "8905b4a1e32a0d6ac39860fb5a0c42bb30cad77cd8b70d9eebb83895d8a167b3",
+    "2022_flat_s1": "5c2dcdfd5979721825fb775b05738d28887f814e76e67eb1c050b10e002cfb83",
+    "2022_flat_s2": "93b1b4d2c9e2f82f0e78a28d6a3ed670e4046cbf631908fed5b1a230eaa427d1",
+    "2022_real_s0": "1557da0749c1a1f77da2b30bdf999383b25fe47c589a73692924e14b087d35a4",
+    "2022_real_s1": "2d05d8512c4df4a8ff66e57f8d6294b18e9fe4da940917af289537eb40897e53",
+    "2022_real_s2": "5e0ffb43aaf0f8f83743ca853007f55d720998229dc561f76caa81c19a3e6a68",
+    "2023_flat_s0": "ff32c87332bac5dac26eb7681fef2b02edc315b4fe9db4745e923ca05918014f",
+    "2023_flat_s1": "ae8162e8e66981f4c8a3641b8046c286bc98578df88b009d46c5ec85fe9bba93",
+    "2023_flat_s2": "529337801db3b0de550e227335e6ca020fc64fad1cb11956871ac31f4dfb5398",
+    "2023_real_s0": "d6630c9884732fade9768f25241c211aa643ff2cd3721bee528c0b15d229277c",
+    "2023_real_s1": "cd6335e41c7c2d0a7a2276bd916c4bd24edac71662a3182e1ebc93b2d0429604",
+    "2023_real_s2": "727b883ae2d9789998ec526bb2aba3a00b9099c6b596f812f0b2bfc5473cdccc",
+    "2025_lambda05_s0": "05a645212963314ca040f24a8546352581e0f8aea05c35d5b4765f1cf824a3dc",
+    "2025_lambda05_s1": "68e963601b3b208cf020a75c66cb23a6b00364510042d8c811565346494d1a8c",
+    "2025_lambda05_s2": "496b1510e5ebc53bf91ccbbd23df39dbe4f7885a5eb80537a3dac651320067c1",
+    "2025_lambda10_s0": "edf9c7fc727035544b84e22ad1691f582d7307c51abf53ba79ed0b2bc6cafa80",
+    "2025_lambda10_s1": "17b71681d6fdcf862d1143cff7c93fd978f3349ec9e5c1de94ca025f3e771947",
+    "2025_lambda10_s2": "52580460b2c5d2aa313ccdae98a2e8fe5111938b99379da61fd9798215a46c60",
+    "2025_budget02_s0": "21b3f941d9de67ee7b7b11db0dbc1f0f00857d3f2b5cdfbb9a066460c5e0b344",
+    "2025_budget02_s1": "d0fb618ca915b9aa7a963e459fb14eedf8694587770d282fcda243ce7f9b463f",
+    "2025_budget02_s2": "fe51a994cd5c9ef5205f62729f35e288e64a50394b2cbc13f93e4f81aec69e1e",
+    "2025_budget05_s0": "99f23fa346131d1575f5030361f1a0fd1df56d5ce1f935d937b2b787114b7b11",
+    "2025_budget05_s1": "93d9682b04213c6b0145ae26f4a9ac74632d1da65f5d33e1006f956da151e6dc",
+    "2025_budget05_s2": "268287167af277145e415c6f2f18a2d0dba081d3e56810ba2768c93eb88a8577"
+  }
+}

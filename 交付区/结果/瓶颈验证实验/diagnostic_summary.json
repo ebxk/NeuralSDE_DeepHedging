@@ -1,0 +1,61 @@
+{
+  "calibration": {
+    "prediction_gate": false,
+    "stat": [
+      0.8,
+      1.0,
+      0.8
+    ],
+    "hedge": [
+      0.8,
+      1.25,
+      0.8
+    ],
+    "validation": {
+      "identity": {
+        "energy": 1.6190238424003134,
+        "crps": 0.0022592790342948438,
+        "covered": 0.9401041666666666
+      },
+      "stat": {
+        "energy": 1.512499502269829,
+        "crps": 0.002019309206722369,
+        "covered": 0.921875
+      },
+      "hedge": {
+        "energy": 1.558233999235239,
+        "crps": 0.002112386481508967,
+        "covered": 0.9270833333333334
+      }
+    },
+    "gates": {
+      "stat": false,
+      "hedge": false
+    }
+  },
+  "planner": {
+    "status": "complete",
+    "promote": false,
+    "by_seed": [
+      {
+        "seed": 0,
+        "relative_mse_improvement": 0.00010473535245584662,
+        "accepted": 3,
+        "states": 64
+      },
+      {
+        "seed": 1,
+        "relative_mse_improvement": 0.0006748430431317497,
+        "accepted": 4,
+        "states": 64
+      },
+      {
+        "seed": 2,
+        "relative_mse_improvement": 0.00048745645747119134,
+        "accepted": 3,
+        "states": 64
+      }
+    ],
+    "limitation": "Independent confirmation is used for action acceptance; not unbiased policy evaluation."
+  }
+}

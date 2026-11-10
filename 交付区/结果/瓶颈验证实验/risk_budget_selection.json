@@ -1,0 +1,1198 @@
+{
+  "promote": false,
+  "budgets": [
+    {
+      "kind": "budget02",
+      "feasible_seeds": 0,
+      "tail_gain": -0.338221062807534,
+      "promote": false
+    },
+    {
+      "kind": "budget05",
+      "feasible_seeds": 0,
+      "tail_gain": -0.47976392826681585,
+      "promote": false
+    }
+  ],
+  "records": [
+    {
+      "end": 2025,
+      "seed": 0,
+      "reference": {
+        "mse": 3.8715267422006093e-05,
+        "rmse": 0.00622215938577646,
+        "cvar": 0.0033101743599591874,
+        "cost": 0.0009499827634943209,
+        "mean": 0.0043205073570438055
+      },
+      "controls": [
+        {
+          "kind": "flat",
+          "weight": 0.0,
+          "mse": 3.8715267422006093e-05,
+          "rmse": 0.00622215938577646,
+          "cvar": 0.0033101743599591874,
+          "cost": 0.0009499827634943209,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.1,
+          "mse": 3.815335066389639e-05,
+          "rmse": 0.0061768398606323275,
+          "cvar": 0.0033701633230541167,
+          "cost": 0.0009513426197951886,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.2,
+          "mse": 3.760957046521771e-05,
+          "rmse": 0.006132664222441802,
+          "cvar": 0.003436335080361378,
+          "cost": 0.0009533789742332014,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.3,
+          "mse": 3.708610193296887e-05,
+          "rmse": 0.006089835952878277,
+          "cvar": 0.00351992304791001,
+          "cost": 0.0009559918217631415,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.4,
+          "mse": 3.6585279469923396e-05,
+          "rmse": 0.0060485766482639034,
+          "cvar": 0.003611050047844466,
+          "cost": 0.0009591690712502407,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.5,
+          "mse": 3.610970011005146e-05,
+          "rmse": 0.006009134722241752,
+          "cvar": 0.003705661795564388,
+          "cost": 0.0009628425007249127,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.6,
+          "mse": 3.566282187582414e-05,
+          "rmse": 0.0059718357207666165,
+          "cvar": 0.003803780137656558,
+          "cost": 0.0009669437123610796,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.7,
+          "mse": 3.524541736307306e-05,
+          "rmse": 0.005936785103325963,
+          "cvar": 0.003915359701549237,
+          "cost": 0.0009714893908325991,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.8,
+          "mse": 3.4862103953067135e-05,
+          "rmse": 0.005904413938153992,
+          "cvar": 0.004041433987817709,
+          "cost": 0.0009764155060236211,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.9,
+          "mse": 3.451609698317899e-05,
+          "rmse": 0.0058750401686438695,
+          "cvar": 0.00417707434338283,
+          "cost": 0.0009817053846094123,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 1.0,
+          "mse": 3.42107360898497e-05,
+          "rmse": 0.005848994451172757,
+          "cvar": 0.004338989829056338,
+          "cost": 0.000987264966161524,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S0_single_flat.pt",
+            "sha256": "6646c05db0b4f6378d7e1612d4321fb42caba5b99dde382580870c3a0359b255"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.0,
+          "mse": 3.8715267422006093e-05,
+          "rmse": 0.00622215938577646,
+          "cvar": 0.0033101743599591874,
+          "cost": 0.0009499827634943209,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.1,
+          "mse": 3.863941532973092e-05,
+          "rmse": 0.0062160610783462324,
+          "cvar": 0.003326034747421239,
+          "cost": 0.000947800974965063,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.2,
+          "mse": 3.8579519692193655e-05,
+          "rmse": 0.006211241397031165,
+          "cvar": 0.0033553655102745773,
+          "cost": 0.0009457331580546716,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.3,
+          "mse": 3.853679815234425e-05,
+          "rmse": 0.006207801394402389,
+          "cvar": 0.003393538067121122,
+          "cost": 0.000943770701154932,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.4,
+          "mse": 3.851243404805386e-05,
+          "rmse": 0.006205838706255091,
+          "cvar": 0.0034322853235324293,
+          "cost": 0.0009419018793048653,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.5,
+          "mse": 3.850684933777293e-05,
+          "rmse": 0.006205388733816193,
+          "cvar": 0.003475205850682664,
+          "cost": 0.0009401429984895183,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.6,
+          "mse": 3.8521648376359526e-05,
+          "rmse": 0.006206581053717056,
+          "cvar": 0.0035389750103636207,
+          "cost": 0.0009384749415289666,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.7,
+          "mse": 3.855805383452313e-05,
+          "rmse": 0.006209513172103199,
+          "cvar": 0.003605032574537932,
+          "cost": 0.0009369029672943991,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.8,
+          "mse": 3.86174691446348e-05,
+          "rmse": 0.006214295546933281,
+          "cvar": 0.0036788928000968234,
+          "cost": 0.0009354491387635647,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.9,
+          "mse": 3.8700768030284504e-05,
+          "rmse": 0.006220994135207371,
+          "cvar": 0.0037773594059741303,
+          "cost": 0.0009341294791549585,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 1.0,
+          "mse": 3.880962938687818e-05,
+          "rmse": 0.006229737505455441,
+          "cvar": 0.003891159097971049,
+          "cost": 0.0009329005932917932,
+          "left": {
+            "weights": "2025_plain_s0.pt",
+            "sha256": "dfc666b07079a1d0376a25eb94c577f90d86a51c3e937cd88baa2efdc3aa4205"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S0_single_wide.pt",
+            "sha256": "43b99e71d04fe17c843c3a7d56c3cb4129b48b131d27fdcd053a26635f0a086a"
+          }
+        }
+      ],
+      "lambda05": {
+        "mse": 3.894208567106523e-05,
+        "rmse": 0.006240359418420162,
+        "cvar": 0.003428658741237496,
+        "cost": 0.0009469749691673638,
+        "mean": 0.004294309838765291
+      },
+      "lambda10": {
+        "mse": 3.918448840123209e-05,
+        "rmse": 0.006259751464813287,
+        "cvar": 0.0035511857480496328,
+        "cost": 0.0009434469069288404,
+        "mean": 0.004268136530975968
+      },
+      "budget02": {
+        "mse": 4.387828117386882e-05,
+        "rmse": 0.006624068324969846,
+        "cvar": 0.0036753213871030988,
+        "cost": 0.0009149339534992778,
+        "mean": 0.004382448507974934
+      },
+      "budget05": {
+        "mse": 4.6649920803231264e-05,
+        "rmse": 0.006830074728963898,
+        "cvar": 0.004173704975030623,
+        "cost": 0.0009110168210994093,
+        "mean": 0.004339235335313945
+      }
+    },
+    {
+      "end": 2025,
+      "seed": 1,
+      "reference": {
+        "mse": 3.823714018795049e-05,
+        "rmse": 0.006183618696843337,
+        "cvar": 0.003393834392725075,
+        "cost": 0.0009135192809423573,
+        "mean": 0.0043161676436829135
+      },
+      "controls": [
+        {
+          "kind": "flat",
+          "weight": 0.0,
+          "mse": 3.823714018795049e-05,
+          "rmse": 0.006183618696843337,
+          "cvar": 0.003393834392725075,
+          "cost": 0.0009135192809423573,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.1,
+          "mse": 3.83653384433131e-05,
+          "rmse": 0.006193975980201497,
+          "cvar": 0.003405136632625137,
+          "cost": 0.000915478346031744,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.2,
+          "mse": 3.8503593500066415e-05,
+          "rmse": 0.006205126388726213,
+          "cvar": 0.0034164900519389643,
+          "cost": 0.0009176919250165358,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.3,
+          "mse": 3.865211379594879e-05,
+          "rmse": 0.00621708241830111,
+          "cvar": 0.0034354941510308275,
+          "cost": 0.0009201997403791667,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.4,
+          "mse": 3.8810431508356325e-05,
+          "rmse": 0.006229801883555874,
+          "cvar": 0.0034580844842928087,
+          "cost": 0.0009230578409688182,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.5,
+          "mse": 3.8980543591783094e-05,
+          "rmse": 0.0062434400447015665,
+          "cvar": 0.003481477118570527,
+          "cost": 0.0009261529669312549,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.6,
+          "mse": 3.9161829748486994e-05,
+          "rmse": 0.00625794133469522,
+          "cvar": 0.003511734466056262,
+          "cost": 0.0009294993529491148,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.7,
+          "mse": 3.935584921898861e-05,
+          "rmse": 0.006273424042657137,
+          "cvar": 0.003547410047663141,
+          "cost": 0.000933042111191252,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.8,
+          "mse": 3.956297603995244e-05,
+          "rmse": 0.0062899106543696185,
+          "cvar": 0.003588335135461882,
+          "cost": 0.0009367905430270183,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.9,
+          "mse": 3.9784158511999896e-05,
+          "rmse": 0.006307468470947746,
+          "cvar": 0.0036310570973102927,
+          "cost": 0.0009407076556202102,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 1.0,
+          "mse": 4.002005441039832e-05,
+          "rmse": 0.006326140562017123,
+          "cvar": 0.003675195178146148,
+          "cost": 0.0009448117254055753,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S1_single_flat.pt",
+            "sha256": "a37f4069a89cb9e5ec20e8f31264ccda11f0f7732270debb44fea9a220bdae74"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.0,
+          "mse": 3.823714018795049e-05,
+          "rmse": 0.006183618696843337,
+          "cvar": 0.003393834392725075,
+          "cost": 0.0009135192809423573,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.1,
+          "mse": 3.834315421168169e-05,
+          "rmse": 0.006192184930352266,
+          "cvar": 0.003319927966291595,
+          "cost": 0.0009128753520405887,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.2,
+          "mse": 3.846436063099128e-05,
+          "rmse": 0.006201964255862112,
+          "cvar": 0.0032474485201507562,
+          "cost": 0.0009123362880236021,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.3,
+          "mse": 3.860083791907428e-05,
+          "rmse": 0.006212957260361146,
+          "cvar": 0.0031774891450958346,
+          "cost": 0.000911906605972444,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.4,
+          "mse": 3.8753371533759426e-05,
+          "rmse": 0.006225220601212412,
+          "cvar": 0.003112342988926484,
+          "cost": 0.0009115785289664072,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.5,
+          "mse": 3.892272445038898e-05,
+          "rmse": 0.006238807935045683,
+          "cvar": 0.003048498615285734,
+          "cost": 0.0009113336295374267,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.6,
+          "mse": 3.910909090688481e-05,
+          "rmse": 0.006253726161808239,
+          "cvar": 0.002984107975042836,
+          "cost": 0.000911170717083408,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.7,
+          "mse": 3.93128212538102e-05,
+          "rmse": 0.006269993720396393,
+          "cvar": 0.002923784752111805,
+          "cost": 0.0009110936245286636,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.8,
+          "mse": 3.953415606036187e-05,
+          "rmse": 0.006287619268082465,
+          "cvar": 0.00287054920258015,
+          "cost": 0.0009111135935719412,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.9,
+          "mse": 3.977295848985751e-05,
+          "rmse": 0.006306580570313639,
+          "cvar": 0.002818619096758187,
+          "cost": 0.0009112660596900382,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 1.0,
+          "mse": 4.0030265689654584e-05,
+          "rmse": 0.006326947580757611,
+          "cvar": 0.002766264240337561,
+          "cost": 0.0009115199275794185,
+          "left": {
+            "weights": "2025_plain_s1.pt",
+            "sha256": "76647c7714eaf9c7a19907a7840458d4b8644c34ce36bed438873a5d02866847"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S1_single_wide.pt",
+            "sha256": "476a0eadc6f2a3a06bcaeef9315b5238de183c7749fa3c54dd1bbc175d8cf30a"
+          }
+        }
+      ],
+      "lambda05": {
+        "mse": 3.82600918816122e-05,
+        "rmse": 0.0061854742648896534,
+        "cvar": 0.0035586714450398208,
+        "cost": 0.0009128499149240848,
+        "mean": 0.004276432792738567
+      },
+      "lambda10": {
+        "mse": 3.839962472520028e-05,
+        "rmse": 0.006196743074002688,
+        "cvar": 0.0036657946355416627,
+        "cost": 0.0009118240785710467,
+        "mean": 0.004253079126114399
+      },
+      "budget02": {
+        "mse": 4.10250247111687e-05,
+        "rmse": 0.006405078040989719,
+        "cvar": 0.004423374332867447,
+        "cost": 0.0009052911529828011,
+        "mean": 0.0040862861690042565
+      },
+      "budget05": {
+        "mse": 4.287855508414912e-05,
+        "rmse": 0.0065481718887143705,
+        "cvar": 0.004728115278126527,
+        "cost": 0.0009031744068753865,
+        "mean": 0.00405187909225146
+      }
+    },
+    {
+      "end": 2025,
+      "seed": 2,
+      "reference": {
+        "mse": 3.857390009176431e-05,
+        "rmse": 0.006210789007184539,
+        "cvar": 0.002990803694511648,
+        "cost": 0.0009210892359152235,
+        "mean": 0.004384027802891959
+      },
+      "controls": [
+        {
+          "kind": "flat",
+          "weight": 0.0,
+          "mse": 3.857390009176431e-05,
+          "rmse": 0.006210789007184539,
+          "cvar": 0.002990803694511648,
+          "cost": 0.0009210892359152233,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.1,
+          "mse": 3.844595078859628e-05,
+          "rmse": 0.006200479883734507,
+          "cvar": 0.003016339427211417,
+          "cost": 0.0009206130379876084,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.2,
+          "mse": 3.836324484587595e-05,
+          "rmse": 0.006193806975187065,
+          "cvar": 0.0031000798456294553,
+          "cost": 0.0009205801729230044,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.3,
+          "mse": 3.832629478877372e-05,
+          "rmse": 0.006190823433823139,
+          "cvar": 0.0032183341625694694,
+          "cost": 0.0009209916194857054,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.4,
+          "mse": 3.8335347621418065e-05,
+          "rmse": 0.006191554539969592,
+          "cvar": 0.003363802691277191,
+          "cost": 0.0009218543686937145,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.5,
+          "mse": 3.8390105081188315e-05,
+          "rmse": 0.0061959749096642015,
+          "cvar": 0.0035095867309877997,
+          "cost": 0.0009232173176607441,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.6,
+          "mse": 3.8494054460027546e-05,
+          "rmse": 0.006204357699232657,
+          "cvar": 0.0036689902370426793,
+          "cost": 0.0009248865194026607,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.7,
+          "mse": 3.864797501811022e-05,
+          "rmse": 0.006216749554076488,
+          "cvar": 0.0038336492742642113,
+          "cost": 0.0009268431020002587,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.8,
+          "mse": 3.8853091171869874e-05,
+          "rmse": 0.006233224781112091,
+          "cvar": 0.00399802728319928,
+          "cost": 0.0009290249273306226,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 0.9,
+          "mse": 3.9110106474574515e-05,
+          "rmse": 0.006253807358287791,
+          "cvar": 0.004162046354517067,
+          "cost": 0.0009314298836351852,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "flat",
+          "weight": 1.0,
+          "mse": 3.942020294706722e-05,
+          "rmse": 0.00627855102289272,
+          "cvar": 0.004330205934799473,
+          "cost": 0.000934061738039378,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R0_C1_off_W1H1_5bp_L0_S2_single_flat.pt",
+            "sha256": "2279243a92f1ad7b3c70039a912e09973cf41e935ef684e56f74fcfac718057f"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.0,
+          "mse": 3.857390009176431e-05,
+          "rmse": 0.006210789007184539,
+          "cvar": 0.002990803694511648,
+          "cost": 0.0009210892359152233,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.1,
+          "mse": 3.858294535271012e-05,
+          "rmse": 0.006211517153861053,
+          "cvar": 0.0030449481682335274,
+          "cost": 0.0009198970543176177,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.2,
+          "mse": 3.8616697674376514e-05,
+          "rmse": 0.006214233474401852,
+          "cvar": 0.0031002756962973076,
+          "cost": 0.0009187584275057782,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.3,
+          "mse": 3.8676209593458434e-05,
+          "rmse": 0.006219019986578146,
+          "cvar": 0.0031627077846182626,
+          "cost": 0.000917674873792538,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.4,
+          "mse": 3.876269178152037e-05,
+          "rmse": 0.006225969143958262,
+          "cvar": 0.00323198452184931,
+          "cost": 0.0009166548563804162,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.5,
+          "mse": 3.8877374916884275e-05,
+          "rmse": 0.006235172404744257,
+          "cvar": 0.0033050979260964854,
+          "cost": 0.0009156885140049336,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.6,
+          "mse": 3.902093807505702e-05,
+          "rmse": 0.006246674161108215,
+          "cvar": 0.003384059848743781,
+          "cost": 0.0009147993632539167,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.7,
+          "mse": 3.919465258730859e-05,
+          "rmse": 0.0062605632803533415,
+          "cvar": 0.0034652774969067663,
+          "cost": 0.0009139835062716003,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.8,
+          "mse": 3.940042656435373e-05,
+          "rmse": 0.006276975909174236,
+          "cvar": 0.0035537535829600455,
+          "cost": 0.0009132136818211462,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 0.9,
+          "mse": 3.9639227157296944e-05,
+          "rmse": 0.006295969119785845,
+          "cvar": 0.0036507165870977125,
+          "cost": 0.0009125150982165034,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        },
+        {
+          "kind": "real",
+          "weight": 1.0,
+          "mse": 3.991237918206732e-05,
+          "rmse": 0.00631762448884605,
+          "cvar": 0.0037559141853476174,
+          "cost": 0.0009118967287620716,
+          "left": {
+            "weights": "2025_plain_s2.pt",
+            "sha256": "a671331b19ea34da8b4415d1b128b4505486d03f8e1e47d8c7cc632c28e3fc38"
+          },
+          "right": {
+            "weights": "2025_R1_C1_real_W1H1_5bp_L0_S2_single_wide.pt",
+            "sha256": "318e792e0ab83000de679d0b2e74503b2bd1d0266648a1a25d210a6fa962ae45"
+          }
+        }
+      ],
+      "lambda05": {
+        "mse": 3.8884158024141145e-05,
+        "rmse": 0.006235716320050259,
+        "cvar": 0.0030389483867603656,
+        "cost": 0.0009197694383154675,
+        "mean": 0.004377550461619012
+      },
+      "lambda10": {
+        "mse": 3.920722158194437e-05,
+        "rmse": 0.006261567022874096,
+        "cvar": 0.0030873321091864337,
+        "cost": 0.0009185566857948185,
+        "mean": 0.004371550256686804
+      },
+      "budget02": {
+        "mse": 4.309550357349527e-05,
+        "rmse": 0.006564716564597078,
+        "cvar": 0.004105341272123714,
+        "cost": 0.0009109346927686822,
+        "mean": 0.004254900049803561
+      },
+      "budget05": {
+        "mse": 4.8065671900894726e-05,
+        "rmse": 0.006932941071500227,
+        "cvar": 0.004515557823555539,
+        "cost": 0.0009004111705425984,
+        "mean": 0.0042887354760071375
+      }
+    }
+  ]
+}

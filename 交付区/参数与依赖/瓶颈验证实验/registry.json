@@ -1,0 +1,902 @@
+{
+  "config": {
+    "folds": [
+      [
+        2022,
+        2023,
+        2025
+      ],
+      [
+        2019,
+        2020,
+        2021
+      ],
+      [
+        2020,
+        2021,
+        2022
+      ],
+      [
+        2021,
+        2022,
+        2023
+      ]
+    ],
+    "windows": [
+      [
+        15,
+        30
+      ],
+      [
+        45,
+        60
+      ],
+      [
+        75,
+        90
+      ]
+    ],
+    "moneyness": [
+      0.9,
+      1.1
+    ],
+    "report_moneyness": [
+      0.97,
+      1.03
+    ],
+    "simulation_train": 32768,
+    "simulation_valid": 8192,
+    "origin_seed": 104,
+    "shock_seed": 105,
+    "boundary": "reflect",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "lambdas": [
+      0,
+      0.1
+    ],
+    "epochs": 100,
+    "validation_every": 10,
+    "patience": 3,
+    "batch_size": 1024,
+    "real_batch_size": 128,
+    "bootstrap": 2000,
+    "teacher_epochs": 30,
+    "warm_epochs": 5,
+    "gradient_batches": 8,
+    "study": "bottleneck-20261110",
+    "maximum_training_jobs": 117,
+    "planner_seconds": 86400,
+    "planner_workers": 2,
+    "risk_epsilons": [
+      0.02,
+      0.05
+    ],
+    "cost_relative_limit": 1.05
+  },
+  "jobs": [
+    {
+      "key": "2025_plain_s0",
+      "end": 2025,
+      "kind": "plain",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_plain_s1",
+      "end": 2025,
+      "kind": "plain",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_plain_s2",
+      "end": 2025,
+      "kind": "plain",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_plain_s0",
+      "end": 2021,
+      "kind": "plain",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_plain_s1",
+      "end": 2021,
+      "kind": "plain",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_plain_s2",
+      "end": 2021,
+      "kind": "plain",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_plain_s0",
+      "end": 2022,
+      "kind": "plain",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_plain_s1",
+      "end": 2022,
+      "kind": "plain",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_plain_s2",
+      "end": 2022,
+      "kind": "plain",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_plain_s0",
+      "end": 2023,
+      "kind": "plain",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_plain_s1",
+      "end": 2023,
+      "kind": "plain",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_plain_s2",
+      "end": 2023,
+      "kind": "plain",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_teacher_s0",
+      "end": 2025,
+      "kind": "teacher",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_teacher_s1",
+      "end": 2025,
+      "kind": "teacher",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_teacher_s2",
+      "end": 2025,
+      "kind": "teacher",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_flat_s0",
+      "end": 2021,
+      "kind": "flat",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_flat_s1",
+      "end": 2021,
+      "kind": "flat",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_flat_s2",
+      "end": 2021,
+      "kind": "flat",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_real_s0",
+      "end": 2021,
+      "kind": "real",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_real_s1",
+      "end": 2021,
+      "kind": "real",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2021_real_s2",
+      "end": 2021,
+      "kind": "real",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_flat_s0",
+      "end": 2022,
+      "kind": "flat",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_flat_s1",
+      "end": 2022,
+      "kind": "flat",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_flat_s2",
+      "end": 2022,
+      "kind": "flat",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_real_s0",
+      "end": 2022,
+      "kind": "real",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_real_s1",
+      "end": 2022,
+      "kind": "real",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2022_real_s2",
+      "end": 2022,
+      "kind": "real",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_flat_s0",
+      "end": 2023,
+      "kind": "flat",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_flat_s1",
+      "end": 2023,
+      "kind": "flat",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_flat_s2",
+      "end": 2023,
+      "kind": "flat",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_real_s0",
+      "end": 2023,
+      "kind": "real",
+      "seed": 0,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_real_s1",
+      "end": 2023,
+      "kind": "real",
+      "seed": 1,
+      "trigger": "always"
+    },
+    {
+      "key": "2023_real_s2",
+      "end": 2023,
+      "kind": "real",
+      "seed": 2,
+      "trigger": "always"
+    },
+    {
+      "key": "2025_stat_s0",
+      "end": 2025,
+      "kind": "stat",
+      "seed": 0,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_stat_s1",
+      "end": 2025,
+      "kind": "stat",
+      "seed": 1,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_stat_s2",
+      "end": 2025,
+      "kind": "stat",
+      "seed": 2,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_hedge_s0",
+      "end": 2025,
+      "kind": "hedge",
+      "seed": 0,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_hedge_s1",
+      "end": 2025,
+      "kind": "hedge",
+      "seed": 1,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_hedge_s2",
+      "end": 2025,
+      "kind": "hedge",
+      "seed": 2,
+      "trigger": "prediction"
+    },
+    {
+      "key": "2025_lambda05_s0",
+      "end": 2025,
+      "kind": "lambda05",
+      "seed": 0,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_lambda05_s1",
+      "end": 2025,
+      "kind": "lambda05",
+      "seed": 1,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_lambda05_s2",
+      "end": 2025,
+      "kind": "lambda05",
+      "seed": 2,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_lambda10_s0",
+      "end": 2025,
+      "kind": "lambda10",
+      "seed": 0,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_lambda10_s1",
+      "end": 2025,
+      "kind": "lambda10",
+      "seed": 1,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_lambda10_s2",
+      "end": 2025,
+      "kind": "lambda10",
+      "seed": 2,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget02_s0",
+      "end": 2025,
+      "kind": "budget02",
+      "seed": 0,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget02_s1",
+      "end": 2025,
+      "kind": "budget02",
+      "seed": 1,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget02_s2",
+      "end": 2025,
+      "kind": "budget02",
+      "seed": 2,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget05_s0",
+      "end": 2025,
+      "kind": "budget05",
+      "seed": 0,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget05_s1",
+      "end": 2025,
+      "kind": "budget05",
+      "seed": 1,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_budget05_s2",
+      "end": 2025,
+      "kind": "budget05",
+      "seed": 2,
+      "trigger": "risk_main"
+    },
+    {
+      "key": "2025_fullstate_s0",
+      "end": 2025,
+      "kind": "fullstate",
+      "seed": 0,
+      "trigger": "planner_diagnostic"
+    },
+    {
+      "key": "2025_fullstate_s1",
+      "end": 2025,
+      "kind": "fullstate",
+      "seed": 1,
+      "trigger": "planner_diagnostic"
+    },
+    {
+      "key": "2025_fullstate_s2",
+      "end": 2025,
+      "kind": "fullstate",
+      "seed": 2,
+      "trigger": "planner_diagnostic"
+    },
+    {
+      "key": "2021_stat_s0",
+      "end": 2021,
+      "kind": "stat",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_stat_s1",
+      "end": 2021,
+      "kind": "stat",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_stat_s2",
+      "end": 2021,
+      "kind": "stat",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_hedge_s0",
+      "end": 2021,
+      "kind": "hedge",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_hedge_s1",
+      "end": 2021,
+      "kind": "hedge",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_hedge_s2",
+      "end": 2021,
+      "kind": "hedge",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2021_lambda05_s0",
+      "end": 2021,
+      "kind": "lambda05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_lambda05_s1",
+      "end": 2021,
+      "kind": "lambda05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_lambda05_s2",
+      "end": 2021,
+      "kind": "lambda05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_lambda10_s0",
+      "end": 2021,
+      "kind": "lambda10",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_lambda10_s1",
+      "end": 2021,
+      "kind": "lambda10",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_lambda10_s2",
+      "end": 2021,
+      "kind": "lambda10",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget02_s0",
+      "end": 2021,
+      "kind": "budget02",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget02_s1",
+      "end": 2021,
+      "kind": "budget02",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget02_s2",
+      "end": 2021,
+      "kind": "budget02",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget05_s0",
+      "end": 2021,
+      "kind": "budget05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget05_s1",
+      "end": 2021,
+      "kind": "budget05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_budget05_s2",
+      "end": 2021,
+      "kind": "budget05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2021_fullstate_s0",
+      "end": 2021,
+      "kind": "fullstate",
+      "seed": 0,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2021_fullstate_s1",
+      "end": 2021,
+      "kind": "fullstate",
+      "seed": 1,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2021_fullstate_s2",
+      "end": 2021,
+      "kind": "fullstate",
+      "seed": 2,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2022_stat_s0",
+      "end": 2022,
+      "kind": "stat",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_stat_s1",
+      "end": 2022,
+      "kind": "stat",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_stat_s2",
+      "end": 2022,
+      "kind": "stat",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_hedge_s0",
+      "end": 2022,
+      "kind": "hedge",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_hedge_s1",
+      "end": 2022,
+      "kind": "hedge",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_hedge_s2",
+      "end": 2022,
+      "kind": "hedge",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2022_lambda05_s0",
+      "end": 2022,
+      "kind": "lambda05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_lambda05_s1",
+      "end": 2022,
+      "kind": "lambda05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_lambda05_s2",
+      "end": 2022,
+      "kind": "lambda05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_lambda10_s0",
+      "end": 2022,
+      "kind": "lambda10",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_lambda10_s1",
+      "end": 2022,
+      "kind": "lambda10",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_lambda10_s2",
+      "end": 2022,
+      "kind": "lambda10",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget02_s0",
+      "end": 2022,
+      "kind": "budget02",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget02_s1",
+      "end": 2022,
+      "kind": "budget02",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget02_s2",
+      "end": 2022,
+      "kind": "budget02",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget05_s0",
+      "end": 2022,
+      "kind": "budget05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget05_s1",
+      "end": 2022,
+      "kind": "budget05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_budget05_s2",
+      "end": 2022,
+      "kind": "budget05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2022_fullstate_s0",
+      "end": 2022,
+      "kind": "fullstate",
+      "seed": 0,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2022_fullstate_s1",
+      "end": 2022,
+      "kind": "fullstate",
+      "seed": 1,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2022_fullstate_s2",
+      "end": 2022,
+      "kind": "fullstate",
+      "seed": 2,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2023_stat_s0",
+      "end": 2023,
+      "kind": "stat",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_stat_s1",
+      "end": 2023,
+      "kind": "stat",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_stat_s2",
+      "end": 2023,
+      "kind": "stat",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_hedge_s0",
+      "end": 2023,
+      "kind": "hedge",
+      "seed": 0,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_hedge_s1",
+      "end": 2023,
+      "kind": "hedge",
+      "seed": 1,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_hedge_s2",
+      "end": 2023,
+      "kind": "hedge",
+      "seed": 2,
+      "trigger": "calibration_rolling"
+    },
+    {
+      "key": "2023_lambda05_s0",
+      "end": 2023,
+      "kind": "lambda05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_lambda05_s1",
+      "end": 2023,
+      "kind": "lambda05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_lambda05_s2",
+      "end": 2023,
+      "kind": "lambda05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_lambda10_s0",
+      "end": 2023,
+      "kind": "lambda10",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_lambda10_s1",
+      "end": 2023,
+      "kind": "lambda10",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_lambda10_s2",
+      "end": 2023,
+      "kind": "lambda10",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget02_s0",
+      "end": 2023,
+      "kind": "budget02",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget02_s1",
+      "end": 2023,
+      "kind": "budget02",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget02_s2",
+      "end": 2023,
+      "kind": "budget02",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget05_s0",
+      "end": 2023,
+      "kind": "budget05",
+      "seed": 0,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget05_s1",
+      "end": 2023,
+      "kind": "budget05",
+      "seed": 1,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_budget05_s2",
+      "end": 2023,
+      "kind": "budget05",
+      "seed": 2,
+      "trigger": "risk_rolling"
+    },
+    {
+      "key": "2023_fullstate_s0",
+      "end": 2023,
+      "kind": "fullstate",
+      "seed": 0,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2023_fullstate_s1",
+      "end": 2023,
+      "kind": "fullstate",
+      "seed": 1,
+      "trigger": "planner_rolling"
+    },
+    {
+      "key": "2023_fullstate_s2",
+      "end": 2023,
+      "kind": "fullstate",
+      "seed": 2,
+      "trigger": "planner_rolling"
+    }
+  ],
+  "maximum": 117
+}
