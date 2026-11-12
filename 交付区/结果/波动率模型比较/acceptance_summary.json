@@ -1,0 +1,447 @@
+{
+  "complete": true,
+  "coverage_count": 1000,
+  "declared_failures": [
+    {
+      "stage": "surfaces",
+      "reason": "2125 saved numerical surface rejections"
+    },
+    {
+      "stage": "generator.2025.localvol",
+      "reason": "current producer numerical rejection"
+    },
+    {
+      "stage": "direct.dynamic.2025.localvol",
+      "reason": "Dupire invalid: nonpositive variance derivative or density denominator; no clipping applied"
+    },
+    {
+      "stage": "prediction.2025.localvol",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "generator.2021.localvol",
+      "reason": "current producer numerical rejection"
+    },
+    {
+      "stage": "direct.dynamic.2021.localvol",
+      "reason": "Dupire invalid: nonpositive variance derivative or density denominator; no clipping applied"
+    },
+    {
+      "stage": "factor.2021.essvi",
+      "reason": "saved independent masked fits include quantified failures"
+    },
+    {
+      "stage": "prediction.2021.localvol",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "generator.2022.localvol",
+      "reason": "current producer numerical rejection"
+    },
+    {
+      "stage": "direct.dynamic.2022.localvol",
+      "reason": "Dupire invalid: nonpositive variance derivative or density denominator; no clipping applied"
+    },
+    {
+      "stage": "prediction.2022.localvol",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "generator.2023.localvol",
+      "reason": "current producer numerical rejection"
+    },
+    {
+      "stage": "direct.dynamic.2023.localvol",
+      "reason": "Dupire invalid: nonpositive variance derivative or density denominator; no clipping applied"
+    },
+    {
+      "stage": "prediction.2023.localvol",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2025_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2021_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2022_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "policy.2023_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2025_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2021_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2022_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_base_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0_s2",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0.1_s0",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0.1_s1",
+      "reason": "explicit verified dependency failure"
+    },
+    {
+      "stage": "evaluation.job.2023_localvol_surface_l0.1_s2",
+      "reason": "explicit verified dependency failure"
+    }
+  ],
+  "manifest_sha256": "fa7f4475f3c35a8c6d1f2f4fa8f1837226a7064ef41e2101885d5d1540c9b44f"
+}

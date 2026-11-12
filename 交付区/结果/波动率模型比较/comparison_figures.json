@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "source": "eba62dfc3a71912695cddc4fa665634ea0c4f8cadfac4d5421e544e0f1169ab7",
+  "parents": {
+    "seed_summary.csv": "e2c0ce9f8826b4179b532f670401ff610807ef2aabf4ecfd231c14485f43961e",
+    "overall.csv": "00adbace5fd5217287cf0d41daa74dc38139957f2dc04fbdb1bc99bbf8f0e26e"
+  },
+  "sample_counts": {
+    "2021": 299,
+    "2022": 353,
+    "2023": 387,
+    "2025": 773
+  },
+  "output_sha256": {
+    "year_stability_l0.png": "492e2e9a249f213f27c50321977df9dacfbd2477068796815e160c5d211a443f",
+    "year_stability_l0.1.png": "bc74c1bf3e029f41b5cd6914cb72f28dce989aeb22aceef2d6e27b952b7c9cd4",
+    "pressure_main_l0.png": "3fb06f006bb59b842cf82129ad091f53593ba86cc9f7161b27ac77de98cc2616",
+    "pressure_main_l0.1.png": "2dec8c3b5bfa22378925ec3270457fa2122f2d763677d9440093a47c108b8c7d"
+  },
+  "range_meaning": "three policy seeds, not confidence intervals",
+  "metric_units": "percent of initial notional"
+}

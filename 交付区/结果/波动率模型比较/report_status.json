@@ -1,0 +1,20 @@
+{
+  "tables_complete": true,
+  "seed_rows": 512,
+  "group_rows": 38400,
+  "interval_rows": 1344,
+  "exploratory": true,
+  "multiple_comparison_adjustment": false,
+  "limitations": [
+    "historically observed evaluation sets",
+    "24 main expiry months",
+    "training-internal forecast diagnostics"
+  ],
+  "cross_dividend_rule": "entry_date < ex_date <= expiry",
+  "cross_dividend_counts": {
+    "2021": 27,
+    "2022": 38,
+    "2023": 22,
+    "2025": 77
+  }
+}

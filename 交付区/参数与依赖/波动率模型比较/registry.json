@@ -1,0 +1,6132 @@
+{
+  "config": {
+    "study": "volatility-20261112",
+    "folds": [
+      [
+        2022,
+        2023,
+        2025
+      ],
+      [
+        2019,
+        2020,
+        2021
+      ],
+      [
+        2020,
+        2021,
+        2022
+      ],
+      [
+        2021,
+        2022,
+        2023
+      ]
+    ],
+    "models": [
+      "gbm",
+      "nsde",
+      "original_linear",
+      "svi_linear",
+      "ssvi_linear",
+      "essvi_linear",
+      "heston",
+      "localvol",
+      "sabr"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "objectives": [
+      0.0,
+      0.1
+    ],
+    "inputs": [
+      "base",
+      "surface"
+    ],
+    "simulation_train": 32768,
+    "simulation_valid": 8192,
+    "epochs": 100,
+    "updates_per_epoch": 32,
+    "batch_size": 1024,
+    "learning_rate": 0.003,
+    "validation_every": 10,
+    "patience": 3,
+    "width": 46,
+    "cost_bp": 5,
+    "holdout_fraction": 0.2,
+    "calibration_starts": 5,
+    "calibration_seed": 20261112,
+    "stale_days": 5,
+    "substeps": 2,
+    "diagnostic_substeps": 4,
+    "bootstrap": 2000,
+    "bootstrap_blocks": [
+      1,
+      3,
+      6
+    ],
+    "financing_rate": 0.0,
+    "continuous_yield": 0.0,
+    "sabr_beta": 1.0,
+    "localvol_horizon_days": 120,
+    "feature_version": "shared-eight-v1"
+  },
+  "jobs": [
+    {
+      "key": "2025_gbm_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_gbm_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_gbm_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_gbm_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_gbm_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_gbm_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_gbm_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_gbm_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_gbm_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_gbm_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_gbm_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_gbm_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_nsde_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_nsde_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_nsde_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_nsde_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_nsde_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_nsde_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_nsde_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_nsde_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_nsde_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_nsde_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_nsde_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_nsde_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_original_linear_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_original_linear_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_original_linear_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_original_linear_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_original_linear_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_original_linear_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_original_linear_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_original_linear_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_original_linear_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_original_linear_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_original_linear_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_original_linear_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_svi_linear_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_svi_linear_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_svi_linear_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_svi_linear_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_svi_linear_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_svi_linear_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_svi_linear_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_ssvi_linear_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_ssvi_linear_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_essvi_linear_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_essvi_linear_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_heston_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_heston_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_heston_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_heston_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_heston_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_heston_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_heston_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_heston_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_heston_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_heston_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_heston_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_heston_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_localvol_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_localvol_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_localvol_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_localvol_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_localvol_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_localvol_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_localvol_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_localvol_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_localvol_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_localvol_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_localvol_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_localvol_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_sabr_base_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_sabr_base_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_sabr_base_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_sabr_base_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_sabr_base_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_sabr_base_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_sabr_surface_l0_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_sabr_surface_l0_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_sabr_surface_l0_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2025_sabr_surface_l0.1_s0",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2025_s0"
+    },
+    {
+      "key": "2025_sabr_surface_l0.1_s1",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2025_s1"
+    },
+    {
+      "key": "2025_sabr_surface_l0.1_s2",
+      "fold": [
+        2022,
+        2023,
+        2025
+      ],
+      "end": 2025,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2025_s2"
+    },
+    {
+      "key": "2021_gbm_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_gbm_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_gbm_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_gbm_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_gbm_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_gbm_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_gbm_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_gbm_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_gbm_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_gbm_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_gbm_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_gbm_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_nsde_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_nsde_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_nsde_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_nsde_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_nsde_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_nsde_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_nsde_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_nsde_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_nsde_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_nsde_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_nsde_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_nsde_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_original_linear_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_original_linear_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_original_linear_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_original_linear_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_original_linear_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_original_linear_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_original_linear_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_original_linear_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_original_linear_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_original_linear_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_original_linear_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_original_linear_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_svi_linear_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_svi_linear_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_svi_linear_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_svi_linear_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_svi_linear_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_svi_linear_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_svi_linear_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_ssvi_linear_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_ssvi_linear_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_essvi_linear_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_essvi_linear_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_heston_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_heston_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_heston_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_heston_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_heston_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_heston_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_heston_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_heston_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_heston_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_heston_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_heston_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_heston_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_localvol_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_localvol_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_localvol_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_localvol_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_localvol_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_localvol_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_localvol_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_localvol_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_localvol_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_localvol_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_localvol_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_localvol_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_sabr_base_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_sabr_base_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_sabr_base_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_sabr_base_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_sabr_base_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_sabr_base_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_sabr_surface_l0_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_sabr_surface_l0_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_sabr_surface_l0_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2021_sabr_surface_l0.1_s0",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2021_s0"
+    },
+    {
+      "key": "2021_sabr_surface_l0.1_s1",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2021_s1"
+    },
+    {
+      "key": "2021_sabr_surface_l0.1_s2",
+      "fold": [
+        2019,
+        2020,
+        2021
+      ],
+      "end": 2021,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2021_s2"
+    },
+    {
+      "key": "2022_gbm_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_gbm_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_gbm_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_gbm_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_gbm_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_gbm_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_gbm_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_gbm_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_gbm_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_gbm_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_gbm_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_gbm_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_nsde_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_nsde_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_nsde_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_nsde_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_nsde_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_nsde_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_nsde_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_nsde_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_nsde_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_nsde_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_nsde_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_nsde_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_original_linear_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_original_linear_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_original_linear_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_original_linear_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_original_linear_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_original_linear_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_original_linear_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_original_linear_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_original_linear_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_original_linear_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_original_linear_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_original_linear_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_svi_linear_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_svi_linear_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_svi_linear_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_svi_linear_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_svi_linear_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_svi_linear_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_svi_linear_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_ssvi_linear_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_ssvi_linear_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_essvi_linear_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_essvi_linear_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_heston_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_heston_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_heston_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_heston_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_heston_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_heston_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_heston_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_heston_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_heston_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_heston_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_heston_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_heston_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_localvol_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_localvol_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_localvol_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_localvol_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_localvol_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_localvol_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_localvol_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_localvol_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_localvol_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_localvol_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_localvol_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_localvol_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_sabr_base_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_sabr_base_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_sabr_base_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_sabr_base_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_sabr_base_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_sabr_base_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_sabr_surface_l0_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_sabr_surface_l0_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_sabr_surface_l0_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2022_sabr_surface_l0.1_s0",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2022_s0"
+    },
+    {
+      "key": "2022_sabr_surface_l0.1_s1",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2022_s1"
+    },
+    {
+      "key": "2022_sabr_surface_l0.1_s2",
+      "fold": [
+        2020,
+        2021,
+        2022
+      ],
+      "end": 2022,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2022_s2"
+    },
+    {
+      "key": "2023_gbm_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_gbm_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_gbm_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_gbm_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_gbm_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_gbm_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_gbm_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_gbm_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_gbm_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_gbm_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_gbm_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_gbm_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "gbm",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_nsde_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_nsde_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_nsde_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_nsde_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_nsde_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_nsde_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_nsde_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_nsde_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_nsde_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_nsde_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_nsde_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_nsde_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "nsde",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_original_linear_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_original_linear_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_original_linear_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_original_linear_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_original_linear_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_original_linear_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_original_linear_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_original_linear_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_original_linear_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_original_linear_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_original_linear_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_original_linear_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "original_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_svi_linear_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_svi_linear_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_svi_linear_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_svi_linear_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_svi_linear_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_svi_linear_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_svi_linear_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "svi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_ssvi_linear_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_ssvi_linear_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "ssvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_essvi_linear_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_essvi_linear_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "essvi_linear",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_heston_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_heston_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_heston_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_heston_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_heston_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_heston_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_heston_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_heston_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_heston_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_heston_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_heston_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_heston_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "heston",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_localvol_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_localvol_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_localvol_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_localvol_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_localvol_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_localvol_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_localvol_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_localvol_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_localvol_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_localvol_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_localvol_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_localvol_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "localvol",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_sabr_base_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_sabr_base_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_sabr_base_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_sabr_base_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_sabr_base_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_sabr_base_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "base",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_sabr_surface_l0_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_sabr_surface_l0_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_sabr_surface_l0_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.0,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    },
+    {
+      "key": "2023_sabr_surface_l0.1_s0",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 0,
+      "initial_key": "2023_s0"
+    },
+    {
+      "key": "2023_sabr_surface_l0.1_s1",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 1,
+      "initial_key": "2023_s1"
+    },
+    {
+      "key": "2023_sabr_surface_l0.1_s2",
+      "fold": [
+        2021,
+        2022,
+        2023
+      ],
+      "end": 2023,
+      "model": "sabr",
+      "information": "surface",
+      "lam": 0.1,
+      "seed": 2,
+      "initial_key": "2023_s2"
+    }
+  ],
+  "raw_sha256": {
+    "510050.XSHG_option_full.csv": "fdc74c64318368f911c0e8fae02f9155873d559b9ce94f1aa0e6a3e6d615ef9f",
+    "510050_华夏上证50ETF.csv": "ab812f30a1a4036e6d6f8dd3e650fcce81b4e46470a72b5aca24f0d4fc74bef3"
+  }
+}
